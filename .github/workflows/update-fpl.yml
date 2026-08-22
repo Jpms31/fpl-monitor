@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "7 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "collector.py"
+      - ".github/workflows/update-fpl.yml"
 
 permissions:
   contents: write
