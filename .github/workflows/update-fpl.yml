@@ -35,7 +35,7 @@ jobs:
 
       - name: Commit latest snapshot
         run: |
-          if git diff --quiet -- data/latest.json 2>/dev/null; then
+          if [ -z "$(git status --porcelain -- data/latest.json)" ]; then
             echo "No changes to commit"
             exit 0
           fi
