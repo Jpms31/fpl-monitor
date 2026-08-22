@@ -1,3 +1,4 @@
+# FPL mini-league monitor collector
 import json
 import os
 import time
@@ -39,7 +40,6 @@ def current_event(bootstrap):
     current = next((e for e in events if e.get("is_current")), None)
     if current:
         return current
-    # During short gaps, prefer the latest finished event; otherwise next event.
     finished = [e for e in events if e.get("finished")]
     if finished:
         return finished[-1]
@@ -189,7 +189,6 @@ def main():
                 tr for tr in transfers_data if int(tr.get("event", -1)) == gw
             ]
         elif transfers_error:
-            # Transfers are useful but non-critical; retain the error for diagnosis.
             errors.append({"entry_id": entry_id, "kind": "transfers", "error": transfers_error})
 
         managers.append(manager)
@@ -200,8 +199,6 @@ def main():
     for pid, count in selection_count.most_common():
         pdata = element_map.get(pid, {"id": pid})
         cap = captain_count.get(pid, 0)
-        # Internal effective ownership: selection + one extra share per normal captain.
-        # Chips/multipliers are represented separately in manager picks; this is a compact league-level signal.
         eo = 100.0 * (count + cap) / denom
         popularity.append(
             {
