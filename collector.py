@@ -12,6 +12,8 @@ LEAGUE_ID = 369689
 MY_ENTRY_ID = 1766059
 OUT_PATH = os.path.join("data", "latest.json")
 USER_AGENT = "fpl-monitor/1.0 (+https://github.com/Jpms31/fpl-monitor)"
+GW_PRIZE_EUR = 5
+MONTHLY_PRIZE_EUR = 5
 
 
 def fetch_json(url, retries=4, timeout=30):
@@ -49,13 +51,26 @@ def current_event(bootstrap):
     raise RuntimeError("Could not determine current FPL event")
 
 
-def get_all_standings():
+def current_monthly_phase(bootstrap, gw):
+    phases = bootstrap.get("phases", [])
+    candidates = [
+        p
+        for p in phases
+        if int(p.get("id", 0)) != 1
+        and p.get("start_event") is not None
+        and p.get("stop_event") is not None
+        and int(p["start_event"]) <= gw <= int(p["stop_event"])
+    ]
+    return candidates[0] if candidates else None
+
+
+def get_all_standings(phase=1):
     page = 1
     rows = []
     league = None
     while True:
         data = fetch_json(
-            f"{BASE}/leagues-classic/{LEAGUE_ID}/standings/?page_standings={page}&phase=1"
+            f"{BASE}/leagues-classic/{LEAGUE_ID}/standings/?page_standings={page}&phase={phase}"
         )
         league = league or data.get("league", {})
         standings = data.get("standings", {})
@@ -96,10 +111,46 @@ def normalize_live(live_data):
     return out
 
 
+def int_points(value):
+    try:
+        return int(value or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def competition_ranks(managers, points_key):
+    ordered = sorted(
+        managers,
+        key=lambda m: (-int_points(m.get(points_key)), m.get("league_rank") or 999999, m["entry_id"]),
+    )
+    last_points = None
+    last_rank = 0
+    ranked = []
+    for idx, manager in enumerate(ordered, start=1):
+        points = int_points(manager.get(points_key))
+        if last_points is None or points != last_points:
+            last_rank = idx
+            last_points = points
+        ranked.append((manager, last_rank, points))
+    return ranked
+
+
+def summary_row(manager, points, rank=None):
+    row = {
+        "entry_id": manager["entry_id"],
+        "team_name": manager.get("team_name"),
+        "points": points,
+    }
+    if rank is not None:
+        row["rank"] = rank
+    return row
+
+
 def main():
     bootstrap = fetch_json(f"{BASE}/bootstrap-static/")
     event = current_event(bootstrap)
     gw = int(event["id"])
+    monthly_phase = current_monthly_phase(bootstrap, gw)
 
     element_map = {
         int(p["id"]): {
@@ -120,7 +171,17 @@ def main():
         for t in bootstrap.get("teams", [])
     }
 
-    league, standings = get_all_standings()
+    league, standings = get_all_standings(phase=1)
+    monthly_rows = []
+    monthly_error = None
+    if monthly_phase:
+        try:
+            _, monthly_rows = get_all_standings(phase=int(monthly_phase["id"]))
+        except Exception as exc:
+            monthly_error = str(exc)
+
+    monthly_by_entry = {int(row["entry"]): row for row in monthly_rows}
+
     live_raw, live_error = safe_fetch(f"{BASE}/event/{gw}/live/")
     live = normalize_live(live_raw or {})
 
@@ -134,6 +195,7 @@ def main():
         entry_id = int(row["entry"])
         picks_data, picks_error = safe_fetch(f"{BASE}/entry/{entry_id}/event/{gw}/picks/")
         transfers_data, transfers_error = safe_fetch(f"{BASE}/entry/{entry_id}/transfers/")
+        monthly_row = monthly_by_entry.get(entry_id, {})
 
         manager = {
             "entry_id": entry_id,
@@ -143,6 +205,9 @@ def main():
             "league_last_rank": row.get("last_rank"),
             "league_total": row.get("total"),
             "event_points_from_standings": row.get("event_total"),
+            "monthly_rank": monthly_row.get("rank"),
+            "monthly_last_rank": monthly_row.get("last_rank"),
+            "monthly_total": monthly_row.get("total"),
             "is_me": entry_id == MY_ENTRY_ID,
             "picks_status": "ok" if picks_data else "error",
             "picks_error": picks_error,
@@ -193,6 +258,55 @@ def main():
 
         managers.append(manager)
 
+    gw_ranked = competition_ranks(managers, "event_points_from_standings")
+    for manager, rank, _ in gw_ranked:
+        manager["gw_rank_live"] = rank
+
+    gw_max = gw_ranked[0][2] if gw_ranked else 0
+    gw_leaders = [
+        summary_row(m, points, rank)
+        for m, rank, points in gw_ranked
+        if points == gw_max
+    ]
+
+    bottom_sorted = sorted(
+        managers,
+        key=lambda m: (int_points(m.get("event_points_from_standings")), -(m.get("league_rank") or 0), m["entry_id"]),
+    )
+    bottom_five = bottom_sorted[:5]
+    bottom_cutoff = int_points(bottom_five[-1].get("event_points_from_standings")) if bottom_five else None
+    bottom_candidates = [
+        m for m in bottom_sorted
+        if bottom_cutoff is not None and int_points(m.get("event_points_from_standings")) <= bottom_cutoff
+    ]
+    boundary_tied = len(bottom_candidates) > 5
+
+    my_manager = next((m for m in managers if m["entry_id"] == MY_ENTRY_ID), None)
+    my_gw_points = int_points(my_manager.get("event_points_from_standings")) if my_manager else None
+    if my_manager is None or bottom_cutoff is None:
+        my_bottom_status = None
+    elif my_gw_points < bottom_cutoff:
+        my_bottom_status = "bottom_five"
+    elif my_gw_points > bottom_cutoff:
+        my_bottom_status = "safe"
+    else:
+        my_bottom_status = "boundary_tie" if boundary_tied else "bottom_five"
+
+    monthly_leaders = []
+    monthly_max = None
+    if monthly_rows:
+        monthly_max = max(int_points(row.get("total")) for row in monthly_rows)
+        monthly_leaders = [
+            {
+                "entry_id": int(row["entry"]),
+                "team_name": row.get("entry_name"),
+                "rank": row.get("rank"),
+                "points": int_points(row.get("total")),
+            }
+            for row in monthly_rows
+            if int_points(row.get("total")) == monthly_max
+        ]
+
     valid_managers = sum(1 for m in managers if m["picks_status"] == "ok")
     denom = valid_managers or 1
     popularity = []
@@ -215,8 +329,49 @@ def main():
             }
         )
 
+    private_competition = {
+        "gw_prize_eur": GW_PRIZE_EUR,
+        "monthly_prize_eur": MONTHLY_PRIZE_EUR,
+        "bottom_five_fines": True,
+        "gameweek": {
+            "leaders": gw_leaders,
+            "leading_points": gw_max,
+            "my_rank_live": my_manager.get("gw_rank_live") if my_manager else None,
+            "my_points_live": my_gw_points,
+            "my_gap_to_lead": (gw_max - my_gw_points) if my_gw_points is not None else None,
+            "bottom_five": [
+                summary_row(m, int_points(m.get("event_points_from_standings")), m.get("gw_rank_live"))
+                for m in bottom_five
+            ],
+            "bottom_five_cutoff_points": bottom_cutoff,
+            "bottom_five_boundary_tied": boundary_tied,
+            "bottom_five_candidates": [
+                summary_row(m, int_points(m.get("event_points_from_standings")), m.get("gw_rank_live"))
+                for m in bottom_candidates
+            ],
+            "my_bottom_five_status": my_bottom_status,
+        },
+        "monthly": {
+            "phase_id": int(monthly_phase["id"]) if monthly_phase else None,
+            "phase_name": monthly_phase.get("name") if monthly_phase else None,
+            "start_event": monthly_phase.get("start_event") if monthly_phase else None,
+            "stop_event": monthly_phase.get("stop_event") if monthly_phase else None,
+            "leaders": monthly_leaders,
+            "leading_points": monthly_max,
+            "my_rank": my_manager.get("monthly_rank") if my_manager else None,
+            "my_points": int_points(my_manager.get("monthly_total")) if my_manager and my_manager.get("monthly_total") is not None else None,
+            "my_gap_to_lead": (
+                monthly_max - int_points(my_manager.get("monthly_total"))
+                if monthly_max is not None and my_manager and my_manager.get("monthly_total") is not None
+                else None
+            ),
+            "standings_ok": bool(monthly_rows),
+            "error": monthly_error,
+        },
+    }
+
     output = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "source": "Official Fantasy Premier League public API via GitHub Actions",
         "league": {
@@ -236,11 +391,15 @@ def main():
             "is_current": event.get("is_current"),
             "is_next": event.get("is_next"),
         },
+        "monthly_phase": monthly_phase,
+        "private_competition": private_competition,
         "my_entry_id": MY_ENTRY_ID,
         "health": {
             "standings_ok": bool(standings),
             "live_ok": live_raw is not None,
             "live_error": live_error,
+            "monthly_standings_ok": bool(monthly_rows) if monthly_phase else True,
+            "monthly_error": monthly_error,
             "managers_total": len(managers),
             "managers_with_picks": valid_managers,
             "all_picks_ok": valid_managers == len(managers),
