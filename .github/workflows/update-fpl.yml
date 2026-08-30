@@ -3,7 +3,7 @@ name: Update FPL monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "3,18,33,48 * * * *"
   push:
     branches: [main]
     paths:
