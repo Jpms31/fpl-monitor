@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at_utc": "2026-08-31T23:39:27.650179+00:00",
+  "generated_at_utc": "2026-09-01T02:03:53.946487+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -24,7 +24,7 @@
     "name": "August",
     "start_event": 1,
     "stop_event": 2,
-    "highest_score": 227
+    "highest_score": 249
   },
   "private_competition": {
     "gw_prize_eur": 5,
@@ -65,10 +65,10 @@
           "rank": 4
         },
         {
-          "entry_id": 1095391,
-          "team_name": "Aston Villains",
-          "points": 113,
-          "rank": 5
+          "entry_id": 6138377,
+          "team_name": "M@chine",
+          "points": 115,
+          "rank": 4
         }
       ],
       "leading_points": 128,
@@ -77,21 +77,21 @@
       "my_gap_to_lead": 0,
       "bottom_five": [
         {
-          "entry_id": 6380348,
-          "team_name": "Aeroporto_d_mosquito",
-          "points": 42,
-          "rank": 47
-        },
-        {
           "entry_id": 6434631,
           "team_name": "Vamos lá a ver se...",
           "points": 43,
+          "rank": 47
+        },
+        {
+          "entry_id": 6380348,
+          "team_name": "Aeroporto_d_mosquito",
+          "points": 44,
           "rank": 46
         },
         {
           "entry_id": 1682711,
           "team_name": "FC Pernas de Pau",
-          "points": 51,
+          "points": 53,
           "rank": 45
         },
         {
@@ -111,21 +111,21 @@
       "bottom_five_boundary_tied": false,
       "bottom_five_candidates": [
         {
-          "entry_id": 6380348,
-          "team_name": "Aeroporto_d_mosquito",
-          "points": 42,
-          "rank": 47
-        },
-        {
           "entry_id": 6434631,
           "team_name": "Vamos lá a ver se...",
           "points": 43,
+          "rank": 47
+        },
+        {
+          "entry_id": 6380348,
+          "team_name": "Aeroporto_d_mosquito",
+          "points": 44,
           "rank": 46
         },
         {
           "entry_id": 1682711,
           "team_name": "FC Pernas de Pau",
-          "points": 51,
+          "points": 53,
           "rank": 45
         },
         {
@@ -758,7 +758,7 @@
       "captained_pct": 0.0,
       "vice_captained": 0,
       "approx_internal_eo_pct": 8.5,
-      "live_points": 3
+      "live_points": 5
     },
     {
       "element": 391,
@@ -2080,7 +2080,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 8,
@@ -2108,7 +2108,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 418,
@@ -2281,254 +2281,6 @@
       ],
       "current_gw_transfers": [],
       "gw_rank_live": 8
-    },
-    {
-      "entry_id": 1791982,
-      "team_name": "Ramiro's Team",
-      "manager_name": "Ramiro Luz",
-      "league_rank": 2,
-      "league_last_rank": 2,
-      "league_total": 180,
-      "event_points_from_standings": 105,
-      "monthly_rank": 2,
-      "monthly_last_rank": 2,
-      "monthly_total": 180,
-      "monthly_live_points": 180,
-      "monthly_live_rank": 2,
-      "is_me": false,
-      "picks_status": "ok",
-      "picks_error": null,
-      "active_chip": null,
-      "entry_history": {
-        "event": 2,
-        "points": 105,
-        "total_points": 180,
-        "rank": 979121,
-        "rank_sort": 996021,
-        "overall_rank": 187814,
-        "percentile_rank": 10,
-        "overall_rank_percentage": "2",
-        "bank": 5,
-        "value": 1002,
-        "event_transfers": 0,
-        "event_transfers_cost": 0,
-        "points_on_bench": 16
-      },
-      "automatic_subs": [],
-      "picks": [
-        {
-          "element": 1,
-          "web_name": "Raya",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 1,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 23
-        },
-        {
-          "element": 356,
-          "web_name": "Virgil",
-          "team": 14,
-          "team_short": "LIV",
-          "position": 2,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 5
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 3,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 11,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 30
-        },
-        {
-          "element": 11,
-          "web_name": "Mosquera",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 4,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 78,
-          "bonus": 0,
-          "bps": 25
-        },
-        {
-          "element": 427,
-          "web_name": "Mbeumo",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 5,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": true,
-          "live_points": 11,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 37
-        },
-        {
-          "element": 40,
-          "web_name": "Rogers",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 6,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 5,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 28
-        },
-        {
-          "element": 426,
-          "web_name": "B.Fernandes",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 7,
-          "multiplier": 2,
-          "is_captain": true,
-          "is_vice_captain": false,
-          "live_points": 23,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 87
-        },
-        {
-          "element": 368,
-          "web_name": "Szoboszlai",
-          "team": 14,
-          "team_short": "LIV",
-          "position": 8,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 24
-        },
-        {
-          "element": 237,
-          "web_name": "Ndiaye",
-          "team": 9,
-          "team_short": "EVE",
-          "position": 9,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 16
-        },
-        {
-          "element": 106,
-          "web_name": "Thiago",
-          "team": 4,
-          "team_short": "BRE",
-          "position": 10,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 2
-        },
-        {
-          "element": 165,
-          "web_name": "João Pedro",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 11,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 44
-        },
-        {
-          "element": 109,
-          "web_name": "Verbruggen",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 12,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": -1
-        },
-        {
-          "element": 346,
-          "web_name": "Calvert-Lewin",
-          "team": 13,
-          "team_short": "LEE",
-          "position": 13,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 8,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 31
-        },
-        {
-          "element": 423,
-          "web_name": "Shaw",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 14,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 72,
-          "bonus": 0,
-          "bps": 12
-        },
-        {
-          "element": 469,
-          "web_name": "N.Williams",
-          "team": 18,
-          "team_short": "NFO",
-          "position": 15,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 16
-        }
-      ],
-      "current_gw_transfers": [],
-      "gw_rank_live": 17
     },
     {
       "entry_id": 1766059,
@@ -2777,6 +2529,254 @@
       ],
       "current_gw_transfers": [],
       "gw_rank_live": 1
+    },
+    {
+      "entry_id": 1791982,
+      "team_name": "Ramiro's Team",
+      "manager_name": "Ramiro Luz",
+      "league_rank": 2,
+      "league_last_rank": 2,
+      "league_total": 180,
+      "event_points_from_standings": 105,
+      "monthly_rank": 2,
+      "monthly_last_rank": 2,
+      "monthly_total": 180,
+      "monthly_live_points": 180,
+      "monthly_live_rank": 2,
+      "is_me": false,
+      "picks_status": "ok",
+      "picks_error": null,
+      "active_chip": null,
+      "entry_history": {
+        "event": 2,
+        "points": 105,
+        "total_points": 180,
+        "rank": 979121,
+        "rank_sort": 996021,
+        "overall_rank": 187814,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "2",
+        "bank": 5,
+        "value": 1002,
+        "event_transfers": 0,
+        "event_transfers_cost": 0,
+        "points_on_bench": 16
+      },
+      "automatic_subs": [],
+      "picks": [
+        {
+          "element": 1,
+          "web_name": "Raya",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 1,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 21
+        },
+        {
+          "element": 356,
+          "web_name": "Virgil",
+          "team": 14,
+          "team_short": "LIV",
+          "position": 2,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 1,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 5
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 3,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 11,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 30
+        },
+        {
+          "element": 11,
+          "web_name": "Mosquera",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 4,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 78,
+          "bonus": 0,
+          "bps": 25
+        },
+        {
+          "element": 427,
+          "web_name": "Mbeumo",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 5,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "live_points": 11,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 37
+        },
+        {
+          "element": 40,
+          "web_name": "Rogers",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 6,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 5,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 28
+        },
+        {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 7,
+          "multiplier": 2,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "live_points": 23,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 87
+        },
+        {
+          "element": 368,
+          "web_name": "Szoboszlai",
+          "team": 14,
+          "team_short": "LIV",
+          "position": 8,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 24
+        },
+        {
+          "element": 237,
+          "web_name": "Ndiaye",
+          "team": 9,
+          "team_short": "EVE",
+          "position": 9,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 16
+        },
+        {
+          "element": 106,
+          "web_name": "Thiago",
+          "team": 4,
+          "team_short": "BRE",
+          "position": 10,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 2
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 11,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 44
+        },
+        {
+          "element": 109,
+          "web_name": "Verbruggen",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 12,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": -1
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "team": 13,
+          "team_short": "LEE",
+          "position": 13,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 8,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 31
+        },
+        {
+          "element": 423,
+          "web_name": "Shaw",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 14,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 72,
+          "bonus": 0,
+          "bps": 12
+        },
+        {
+          "element": 469,
+          "web_name": "N.Williams",
+          "team": 18,
+          "team_short": "NFO",
+          "position": 15,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 16
+        }
+      ],
+      "current_gw_transfers": [],
+      "gw_rank_live": 17
     },
     {
       "entry_id": 1799632,
@@ -3072,7 +3072,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 8,
@@ -3568,7 +3568,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 4,
@@ -3582,7 +3582,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 356,
@@ -3778,7 +3778,7 @@
           "time": "2026-08-28T15:02:26.274854Z"
         }
       ],
-      "gw_rank_live": 5
+      "gw_rank_live": 6
     },
     {
       "entry_id": 2946089,
@@ -3868,7 +3868,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 426,
@@ -4074,7 +4074,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 418,
@@ -4277,10 +4277,258 @@
       "gw_rank_live": 14
     },
     {
+      "entry_id": 6138377,
+      "team_name": "M@chine",
+      "manager_name": "Nuno Moutinho",
+      "league_rank": 10,
+      "league_last_rank": 28,
+      "league_total": 165,
+      "event_points_from_standings": 115,
+      "monthly_rank": 11,
+      "monthly_last_rank": 28,
+      "monthly_total": 163,
+      "monthly_live_points": 165,
+      "monthly_live_rank": 10,
+      "is_me": false,
+      "picks_status": "ok",
+      "picks_error": null,
+      "active_chip": null,
+      "entry_history": {
+        "event": 2,
+        "points": 113,
+        "total_points": 163,
+        "rank": 370475,
+        "rank_sort": 398796,
+        "overall_rank": 816941,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "8",
+        "bank": 0,
+        "value": 1001,
+        "event_transfers": 0,
+        "event_transfers_cost": 0,
+        "points_on_bench": 4
+      },
+      "automatic_subs": [],
+      "picks": [
+        {
+          "element": 82,
+          "web_name": "Kelleher",
+          "team": 4,
+          "team_short": "BRE",
+          "position": 1,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 7
+        },
+        {
+          "element": 534,
+          "web_name": "Hume",
+          "team": 20,
+          "team_short": "SUN",
+          "position": 2,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 24
+        },
+        {
+          "element": 388,
+          "web_name": "Guéhi",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 3,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 12
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 4,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 11,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 30
+        },
+        {
+          "element": 13,
+          "web_name": "Rice",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 5,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 5,
+          "minutes": 84,
+          "bonus": 0,
+          "bps": 19
+        },
+        {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 6,
+          "multiplier": 2,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "live_points": 23,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 87
+        },
+        {
+          "element": 397,
+          "web_name": "Semenyo",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 7,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 5,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 33
+        },
+        {
+          "element": 368,
+          "web_name": "Szoboszlai",
+          "team": 14,
+          "team_short": "LIV",
+          "position": 8,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 24
+        },
+        {
+          "element": 124,
+          "web_name": "Groß",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 9,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 13,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 46
+        },
+        {
+          "element": 411,
+          "web_name": "Haaland",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 10,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "live_points": 13,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 60
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "team": 13,
+          "team_short": "LEE",
+          "position": 11,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 8,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 31
+        },
+        {
+          "element": 109,
+          "web_name": "Verbruggen",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 12,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": -1
+        },
+        {
+          "element": 175,
+          "web_name": "van Ewijk",
+          "team": 7,
+          "team_short": "COV",
+          "position": 13,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 15
+        },
+        {
+          "element": 259,
+          "web_name": "Diop",
+          "team": 12,
+          "team_short": "IPS",
+          "position": 14,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 7
+        },
+        {
+          "element": 272,
+          "web_name": "Kusi-Asare",
+          "team": 10,
+          "team_short": "FUL",
+          "position": 15,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        }
+      ],
+      "current_gw_transfers": [],
+      "gw_rank_live": 4
+    },
+    {
       "entry_id": 397892,
       "team_name": "FCSergio",
       "manager_name": "Sérgio Costa",
-      "league_rank": 10,
+      "league_rank": 11,
       "league_last_rank": 20,
       "league_total": 164,
       "event_points_from_standings": 111,
@@ -4288,7 +4536,7 @@
       "monthly_last_rank": 20,
       "monthly_total": 164,
       "monthly_live_points": 164,
-      "monthly_live_rank": 10,
+      "monthly_live_rank": 11,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -4525,254 +4773,6 @@
       "gw_rank_live": 8
     },
     {
-      "entry_id": 6138377,
-      "team_name": "M@chine",
-      "manager_name": "Nuno Moutinho",
-      "league_rank": 11,
-      "league_last_rank": 28,
-      "league_total": 163,
-      "event_points_from_standings": 113,
-      "monthly_rank": 11,
-      "monthly_last_rank": 28,
-      "monthly_total": 163,
-      "monthly_live_points": 163,
-      "monthly_live_rank": 11,
-      "is_me": false,
-      "picks_status": "ok",
-      "picks_error": null,
-      "active_chip": null,
-      "entry_history": {
-        "event": 2,
-        "points": 113,
-        "total_points": 163,
-        "rank": 370475,
-        "rank_sort": 398796,
-        "overall_rank": 816941,
-        "percentile_rank": 5,
-        "overall_rank_percentage": "8",
-        "bank": 0,
-        "value": 1001,
-        "event_transfers": 0,
-        "event_transfers_cost": 0,
-        "points_on_bench": 4
-      },
-      "automatic_subs": [],
-      "picks": [
-        {
-          "element": 82,
-          "web_name": "Kelleher",
-          "team": 4,
-          "team_short": "BRE",
-          "position": 1,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 7
-        },
-        {
-          "element": 534,
-          "web_name": "Hume",
-          "team": 20,
-          "team_short": "SUN",
-          "position": 2,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 24
-        },
-        {
-          "element": 388,
-          "web_name": "Guéhi",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 3,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 12
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 4,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 11,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 30
-        },
-        {
-          "element": 13,
-          "web_name": "Rice",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 5,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 3,
-          "minutes": 84,
-          "bonus": 0,
-          "bps": 19
-        },
-        {
-          "element": 426,
-          "web_name": "B.Fernandes",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 6,
-          "multiplier": 2,
-          "is_captain": true,
-          "is_vice_captain": false,
-          "live_points": 23,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 87
-        },
-        {
-          "element": 397,
-          "web_name": "Semenyo",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 7,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 5,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 33
-        },
-        {
-          "element": 368,
-          "web_name": "Szoboszlai",
-          "team": 14,
-          "team_short": "LIV",
-          "position": 8,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 24
-        },
-        {
-          "element": 124,
-          "web_name": "Groß",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 9,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 13,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 46
-        },
-        {
-          "element": 411,
-          "web_name": "Haaland",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 10,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": true,
-          "live_points": 13,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 60
-        },
-        {
-          "element": 346,
-          "web_name": "Calvert-Lewin",
-          "team": 13,
-          "team_short": "LEE",
-          "position": 11,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 8,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 31
-        },
-        {
-          "element": 109,
-          "web_name": "Verbruggen",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 12,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": -1
-        },
-        {
-          "element": 175,
-          "web_name": "van Ewijk",
-          "team": 7,
-          "team_short": "COV",
-          "position": 13,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 15
-        },
-        {
-          "element": 259,
-          "web_name": "Diop",
-          "team": 12,
-          "team_short": "IPS",
-          "position": 14,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 7
-        },
-        {
-          "element": 272,
-          "web_name": "Kusi-Asare",
-          "team": 10,
-          "team_short": "FUL",
-          "position": 15,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        }
-      ],
-      "current_gw_transfers": [],
-      "gw_rank_live": 5
-    },
-    {
       "entry_id": 1754828,
       "team_name": "The Special One 2.0",
       "manager_name": "João Guedes",
@@ -4818,7 +4818,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 423,
@@ -5314,7 +5314,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 418,
@@ -5562,7 +5562,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 418,
@@ -5604,7 +5604,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 426,
@@ -5820,7 +5820,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 356,
@@ -6020,7 +6020,7 @@
         }
       ],
       "current_gw_transfers": [],
-      "gw_rank_live": 23
+      "gw_rank_live": 24
     },
     {
       "entry_id": 41071,
@@ -6110,7 +6110,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 426,
@@ -6268,7 +6268,7 @@
         }
       ],
       "current_gw_transfers": [],
-      "gw_rank_live": 5
+      "gw_rank_live": 6
     },
     {
       "entry_id": 1916072,
@@ -7528,7 +7528,7 @@
           "time": "2026-08-28T08:29:53.507700Z"
         }
       ],
-      "gw_rank_live": 22
+      "gw_rank_live": 23
     },
     {
       "entry_id": 6029177,
@@ -7618,7 +7618,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 542,
@@ -7824,7 +7824,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 8,
@@ -8082,7 +8082,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 358,
@@ -9094,7 +9094,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 362,
@@ -9297,10 +9297,258 @@
       "gw_rank_live": 39
     },
     {
+      "entry_id": 2791178,
+      "team_name": "TNT",
+      "manager_name": "Urgel Martins",
+      "league_rank": 30,
+      "league_last_rank": 46,
+      "league_total": 137,
+      "event_points_from_standings": 99,
+      "monthly_rank": 31,
+      "monthly_last_rank": 46,
+      "monthly_total": 135,
+      "monthly_live_points": 137,
+      "monthly_live_rank": 30,
+      "is_me": false,
+      "picks_status": "ok",
+      "picks_error": null,
+      "active_chip": null,
+      "entry_history": {
+        "event": 2,
+        "points": 97,
+        "total_points": 135,
+        "rank": 1881504,
+        "rank_sort": 1905419,
+        "overall_rank": 3705513,
+        "percentile_rank": 20,
+        "overall_rank_percentage": "37",
+        "bank": 5,
+        "value": 1001,
+        "event_transfers": 0,
+        "event_transfers_cost": 0,
+        "points_on_bench": 38
+      },
+      "automatic_subs": [],
+      "picks": [
+        {
+          "element": 1,
+          "web_name": "Raya",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 1,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 21
+        },
+        {
+          "element": 11,
+          "web_name": "Mosquera",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 2,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 78,
+          "bonus": 0,
+          "bps": 25
+        },
+        {
+          "element": 417,
+          "web_name": "Dalot",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 3,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 73,
+          "bonus": 0,
+          "bps": 12
+        },
+        {
+          "element": 387,
+          "web_name": "O'Reilly",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 4,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 88,
+          "bonus": 0,
+          "bps": 11
+        },
+        {
+          "element": 175,
+          "web_name": "van Ewijk",
+          "team": 7,
+          "team_short": "COV",
+          "position": 5,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 15
+        },
+        {
+          "element": 13,
+          "web_name": "Rice",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 6,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 5,
+          "minutes": 84,
+          "bonus": 0,
+          "bps": 19
+        },
+        {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 7,
+          "multiplier": 2,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "live_points": 23,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 87
+        },
+        {
+          "element": 427,
+          "web_name": "Mbeumo",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 8,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 11,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 37
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "team": 13,
+          "team_short": "LEE",
+          "position": 9,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 8,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 31
+        },
+        {
+          "element": 106,
+          "web_name": "Thiago",
+          "team": 4,
+          "team_short": "BRE",
+          "position": 10,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 2
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 11,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "live_points": 9,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 44
+        },
+        {
+          "element": 57,
+          "web_name": "Petrović",
+          "team": 3,
+          "team_short": "BOU",
+          "position": 12,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 3,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 20
+        },
+        {
+          "element": 533,
+          "web_name": "Mukiele",
+          "team": 20,
+          "team_short": "SUN",
+          "position": 13,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 90,
+          "bonus": 1,
+          "bps": 28
+        },
+        {
+          "element": 124,
+          "web_name": "Groß",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 14,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 13,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 46
+        },
+        {
+          "element": 480,
+          "web_name": "Gibbs-White",
+          "team": 18,
+          "team_short": "NFO",
+          "position": 15,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 13,
+          "minutes": 90,
+          "bonus": 3,
+          "bps": 36
+        }
+      ],
+      "current_gw_transfers": [],
+      "gw_rank_live": 22
+    },
+    {
       "entry_id": 2386086,
       "team_name": "Borussia DoutroMundo",
       "manager_name": "Sérgio Sérgio",
-      "league_rank": 30,
+      "league_rank": 31,
       "league_last_rank": 14,
       "league_total": 136,
       "event_points_from_standings": 80,
@@ -9308,7 +9556,7 @@
       "monthly_last_rank": 14,
       "monthly_total": 136,
       "monthly_live_points": 136,
-      "monthly_live_rank": 30,
+      "monthly_live_rank": 31,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -9545,258 +9793,10 @@
       "gw_rank_live": 34
     },
     {
-      "entry_id": 2791178,
-      "team_name": "TNT",
-      "manager_name": "Urgel Martins",
-      "league_rank": 31,
-      "league_last_rank": 46,
-      "league_total": 135,
-      "event_points_from_standings": 97,
-      "monthly_rank": 31,
-      "monthly_last_rank": 46,
-      "monthly_total": 135,
-      "monthly_live_points": 135,
-      "monthly_live_rank": 31,
-      "is_me": false,
-      "picks_status": "ok",
-      "picks_error": null,
-      "active_chip": null,
-      "entry_history": {
-        "event": 2,
-        "points": 97,
-        "total_points": 135,
-        "rank": 1881504,
-        "rank_sort": 1905419,
-        "overall_rank": 3705513,
-        "percentile_rank": 20,
-        "overall_rank_percentage": "37",
-        "bank": 5,
-        "value": 1001,
-        "event_transfers": 0,
-        "event_transfers_cost": 0,
-        "points_on_bench": 38
-      },
-      "automatic_subs": [],
-      "picks": [
-        {
-          "element": 1,
-          "web_name": "Raya",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 1,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 23
-        },
-        {
-          "element": 11,
-          "web_name": "Mosquera",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 2,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 78,
-          "bonus": 0,
-          "bps": 25
-        },
-        {
-          "element": 417,
-          "web_name": "Dalot",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 3,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 73,
-          "bonus": 0,
-          "bps": 12
-        },
-        {
-          "element": 387,
-          "web_name": "O'Reilly",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 4,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 88,
-          "bonus": 0,
-          "bps": 11
-        },
-        {
-          "element": 175,
-          "web_name": "van Ewijk",
-          "team": 7,
-          "team_short": "COV",
-          "position": 5,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 15
-        },
-        {
-          "element": 13,
-          "web_name": "Rice",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 6,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 3,
-          "minutes": 84,
-          "bonus": 0,
-          "bps": 19
-        },
-        {
-          "element": 426,
-          "web_name": "B.Fernandes",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 7,
-          "multiplier": 2,
-          "is_captain": true,
-          "is_vice_captain": false,
-          "live_points": 23,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 87
-        },
-        {
-          "element": 427,
-          "web_name": "Mbeumo",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 8,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 11,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 37
-        },
-        {
-          "element": 346,
-          "web_name": "Calvert-Lewin",
-          "team": 13,
-          "team_short": "LEE",
-          "position": 9,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 8,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 31
-        },
-        {
-          "element": 106,
-          "web_name": "Thiago",
-          "team": 4,
-          "team_short": "BRE",
-          "position": 10,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 2
-        },
-        {
-          "element": 165,
-          "web_name": "João Pedro",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 11,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": true,
-          "live_points": 9,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 44
-        },
-        {
-          "element": 57,
-          "web_name": "Petrović",
-          "team": 3,
-          "team_short": "BOU",
-          "position": 12,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 3,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 20
-        },
-        {
-          "element": 533,
-          "web_name": "Mukiele",
-          "team": 20,
-          "team_short": "SUN",
-          "position": 13,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 90,
-          "bonus": 1,
-          "bps": 28
-        },
-        {
-          "element": 124,
-          "web_name": "Groß",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 14,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 13,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 46
-        },
-        {
-          "element": 480,
-          "web_name": "Gibbs-White",
-          "team": 18,
-          "team_short": "NFO",
-          "position": 15,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 13,
-          "minutes": 90,
-          "bonus": 3,
-          "bps": 36
-        }
-      ],
-      "current_gw_transfers": [],
-      "gw_rank_live": 23
-    },
-    {
       "entry_id": 7605180,
       "team_name": "Agarrados FC",
       "manager_name": "Miguel Chumbinho",
-      "league_rank": 31,
+      "league_rank": 32,
       "league_last_rank": 42,
       "league_total": 135,
       "event_points_from_standings": 94,
@@ -9804,7 +9804,7 @@
       "monthly_last_rank": 42,
       "monthly_total": 135,
       "monthly_live_points": 135,
-      "monthly_live_rank": 31,
+      "monthly_live_rank": 32,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -10052,7 +10052,7 @@
       "monthly_last_rank": 15,
       "monthly_total": 135,
       "monthly_live_points": 135,
-      "monthly_live_rank": 31,
+      "monthly_live_rank": 32,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -10344,7 +10344,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 586,
@@ -10400,7 +10400,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 397,
@@ -10602,7 +10602,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 387,
@@ -11375,7 +11375,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 387,
@@ -11665,7 +11665,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 388,
@@ -12181,7 +12181,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 427,
@@ -12397,7 +12397,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 4,
@@ -12411,7 +12411,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 358,
@@ -12863,12 +12863,12 @@
       "manager_name": "António Barroso",
       "league_rank": 44,
       "league_last_rank": 20,
-      "league_total": 104,
-      "event_points_from_standings": 51,
+      "league_total": 106,
+      "event_points_from_standings": 53,
       "monthly_rank": 44,
       "monthly_last_rank": 20,
       "monthly_total": 104,
-      "monthly_live_points": 104,
+      "monthly_live_points": 106,
       "monthly_live_rank": 44,
       "is_me": false,
       "picks_status": "ok",
@@ -12984,7 +12984,7 @@
           "multiplier": 1,
           "is_captain": false,
           "is_vice_captain": false,
-          "live_points": 3,
+          "live_points": 5,
           "minutes": 84,
           "bonus": 0,
           "bps": 19
@@ -13189,7 +13189,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 201,
@@ -13388,12 +13388,12 @@
       "manager_name": "João Vieira",
       "league_rank": 46,
       "league_last_rank": 39,
-      "league_total": 88,
-      "event_points_from_standings": 42,
+      "league_total": 90,
+      "event_points_from_standings": 44,
       "monthly_rank": 46,
       "monthly_last_rank": 39,
       "monthly_total": 88,
-      "monthly_live_points": 88,
+      "monthly_live_points": 90,
       "monthly_live_rank": 46,
       "is_me": false,
       "picks_status": "ok",
@@ -13428,7 +13428,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 23
+          "bps": 21
         },
         {
           "element": 200,
@@ -13523,7 +13523,7 @@
           "multiplier": 1,
           "is_captain": false,
           "is_vice_captain": false,
-          "live_points": 3,
+          "live_points": 5,
           "minutes": 84,
           "bonus": 0,
           "bps": 19
@@ -13638,7 +13638,7 @@
           "time": "2026-08-28T14:13:07.848592Z"
         }
       ],
-      "gw_rank_live": 47
+      "gw_rank_live": 46
     },
     {
       "entry_id": 6434631,
@@ -13728,7 +13728,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 23
         },
         {
           "element": 190,
@@ -13914,7 +13914,7 @@
           "time": "2026-08-27T22:21:22.696674Z"
         }
       ],
-      "gw_rank_live": 46
+      "gw_rank_live": 47
     }
   ],
   "errors": []
