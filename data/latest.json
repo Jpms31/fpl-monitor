@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-09-12T14:15:56.595176+00:00",
+  "generated_at_utc": "2026-09-12T14:17:41.096827+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -1085,7 +1085,7 @@
       "captained_pct": 0.0,
       "vice_captained": 0,
       "approx_internal_eo_pct": 4.3,
-      "live_points": 1
+      "live_points": 4
     },
     {
       "element": 304,
@@ -1919,7 +1919,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
           "bps": 5
         },
@@ -2044,10 +2044,10 @@
           "multiplier": 0,
           "is_captain": false,
           "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 13,
+          "live_points": 4,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": 13
         },
         {
           "element": 259,
@@ -2059,9 +2059,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 418,
@@ -2177,9 +2177,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 124,
@@ -2565,9 +2565,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 565,
@@ -2593,7 +2593,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -3275,9 +3275,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -5413,9 +5413,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [],
@@ -5802,7 +5802,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -5914,9 +5914,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 418,
@@ -6092,7 +6092,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -6204,9 +6204,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -6443,9 +6443,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 69,
@@ -6819,9 +6819,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -7199,9 +7199,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 423,
@@ -7597,9 +7597,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 272,
@@ -7715,7 +7715,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -7770,10 +7770,10 @@
           "multiplier": 1,
           "is_captain": false,
           "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 13,
+          "live_points": 4,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": 13
         },
         {
           "element": 464,
@@ -7968,7 +7968,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -8356,7 +8356,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -8384,9 +8384,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -8746,7 +8746,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
           "bps": 5
         },
@@ -9148,9 +9148,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -10197,7 +10197,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
           "bps": 5
         },
@@ -10323,7 +10323,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -10351,9 +10351,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -10595,7 +10595,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -10829,7 +10829,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -11365,7 +11365,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -11843,7 +11843,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -12827,7 +12827,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -12967,7 +12967,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -13122,7 +13122,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
           "bps": 5
         },
@@ -13492,7 +13492,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -13520,9 +13520,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         }
       ],
       "current_gw_transfers": [
@@ -13619,9 +13619,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 498,
@@ -13773,7 +13773,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -14387,7 +14387,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -14429,7 +14429,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 4
         },
@@ -14884,7 +14884,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -14912,7 +14912,7 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 14,
+          "minutes": 15,
           "bonus": 0,
           "bps": 3
         },
@@ -15052,9 +15052,9 @@
           "is_captain": false,
           "is_vice_captain": false,
           "live_points": 1,
-          "minutes": 13,
+          "minutes": 15,
           "bonus": 0,
-          "bps": 3
+          "bps": -1
         },
         {
           "element": 387,
@@ -15086,7 +15086,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-09-12T14:15:56.785519+00:00",
+  "fixture_status_generated_at_utc": "2026-09-12T14:17:41.428365+00:00",
   "fixtures": [
     {
       "id": 31,
@@ -15100,7 +15100,7 @@
       "team_a_score": 0,
       "started": true,
       "finished": false,
-      "minutes": 14,
+      "minutes": 15,
       "status": "in_progress",
       "score_final": false,
       "bonus_stats_present": true
@@ -15145,13 +15145,13 @@
       "kickoff_time": "2026-09-12T14:00:00Z",
       "team_h": 8,
       "team_h_short": "CRY",
-      "team_h_score": 0,
+      "team_h_score": 1,
       "team_a": 12,
       "team_a_short": "IPS",
       "team_a_score": 0,
       "started": true,
       "finished": false,
-      "minutes": 13,
+      "minutes": 15,
       "status": "in_progress",
       "score_final": false,
       "bonus_stats_present": true
