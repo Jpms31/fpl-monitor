@@ -8,8 +8,10 @@ on:
     branches: [main]
     paths:
       - "collector.py"
+      - "collect_snapshot.py"
       - "fixture_guard.py"
       - ".github/workflows/update-fpl.yml"
+      - "refresh.request"
 
 permissions:
   contents: write
@@ -31,8 +33,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect FPL data
-        run: python collector.py
+      - name: Collect and validate FPL data
+        run: python collect_snapshot.py
 
       - name: Validate official fixture completion state
         run: python fixture_guard.py
