@@ -1,2 +1,2 @@
 On-demand snapshot refresh trigger.
-Update this file with the request timestamp whenever a fresh snapshot is needed.
+requested_at_utc: 2026-09-12T14:16:00Z
