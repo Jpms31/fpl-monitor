@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-09-13T01:18:40.962902+00:00",
+  "generated_at_utc": "2026-09-13T05:11:06.033193+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -104,7 +104,7 @@
         {
           "entry_id": 1831903,
           "team_name": "muchachos",
-          "points": 25,
+          "points": 24,
           "rank": 45
         },
         {
@@ -138,7 +138,7 @@
         {
           "entry_id": 1831903,
           "team_name": "muchachos",
-          "points": 25,
+          "points": 24,
           "rank": 45
         },
         {
@@ -1811,7 +1811,7 @@
       "captained_pct": 0.0,
       "vice_captained": 0,
       "approx_internal_eo_pct": 2.1,
-      "live_points": 8
+      "live_points": 7
     },
     {
       "element": 372,
@@ -1899,7 +1899,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 173,
@@ -2185,7 +2185,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 40,
@@ -2577,7 +2577,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 4,
@@ -2853,7 +2853,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 499,
@@ -3111,7 +3111,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 499,
@@ -3383,7 +3383,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 115,
@@ -3631,7 +3631,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 31,
@@ -3893,7 +3893,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 154,
@@ -4209,7 +4209,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 449,
@@ -4638,7 +4638,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 4,
@@ -5253,7 +5253,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 4,
@@ -5520,7 +5520,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 31,
@@ -5882,7 +5882,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 40,
@@ -6135,7 +6135,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 115,
@@ -6402,7 +6402,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 204,
@@ -6660,7 +6660,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 112,
@@ -6918,7 +6918,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 391,
@@ -7171,7 +7171,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 334,
@@ -7475,7 +7475,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 154,
@@ -7728,7 +7728,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -1
+          "bps": 0
         },
         {
           "element": 4,
@@ -8253,7 +8253,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 259,
@@ -8525,7 +8525,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 368,
@@ -8773,7 +8773,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 154,
@@ -9121,7 +9121,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 368,
@@ -9355,7 +9355,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 356,
@@ -9875,7 +9875,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 399,
@@ -10425,7 +10425,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 173,
@@ -10683,7 +10683,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 173,
@@ -11217,7 +11217,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 454,
@@ -11447,7 +11447,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 391,
@@ -11977,7 +11977,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -6
+          "bps": -5
         }
       ],
       "current_gw_transfers": [
@@ -12076,7 +12076,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 10,
@@ -12392,7 +12392,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 391,
@@ -13288,7 +13288,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 388,
@@ -13871,7 +13871,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 362,
@@ -14405,7 +14405,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 426,
@@ -14639,7 +14639,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 18
         },
         {
           "element": 391,
@@ -14838,12 +14838,12 @@
       "manager_name": "Bruno Faria",
       "league_rank": 47,
       "league_last_rank": 47,
-      "league_total": 152,
-      "event_points_from_standings": 25,
+      "league_total": 151,
+      "event_points_from_standings": 24,
       "monthly_rank": 47,
       "monthly_last_rank": 47,
       "monthly_total": 58,
-      "monthly_live_points": 58,
+      "monthly_live_points": 57,
       "monthly_live_rank": 47,
       "is_me": false,
       "picks_status": "ok",
@@ -14945,10 +14945,10 @@
           "multiplier": 1,
           "is_captain": false,
           "is_vice_captain": false,
-          "live_points": 8,
+          "live_points": 7,
           "minutes": 45,
-          "bonus": 2,
-          "bps": 30
+          "bonus": 1,
+          "bps": 29
         },
         {
           "element": 372,
@@ -15092,7 +15092,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-09-13T01:18:41.173848+00:00",
+  "fixture_status_generated_at_utc": "2026-09-13T05:11:06.301792+00:00",
   "fixtures": [
     {
       "id": 31,
