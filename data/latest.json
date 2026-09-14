@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-09-13T23:11:54.890213+00:00",
+  "generated_at_utc": "2026-09-14T01:05:17.263682+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -11544,7 +11544,7 @@
     {
       "entry_id": 2386086,
       "team_name": "Borussia DoutroMundo",
-      "manager_name": "Sérgio Sérgio",
+      "manager_name": "Sérgio Costa | Trofa",
       "league_rank": 35,
       "league_last_rank": 40,
       "league_total": 249,
@@ -15074,7 +15074,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-09-13T23:11:55.158314+00:00",
+  "fixture_status_generated_at_utc": "2026-09-14T01:05:17.639852+00:00",
   "fixtures": [
     {
       "id": 31,
