@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-09-20T01:24:44.319026+00:00",
+  "generated_at_utc": "2026-09-20T06:43:17.689520+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -4670,7 +4670,7 @@
           "live_points": 1,
           "minutes": 14,
           "bonus": 0,
-          "bps": 1
+          "bps": 2
         }
       ],
       "current_gw_transfers": [
@@ -8479,7 +8479,7 @@
           "live_points": 1,
           "minutes": 14,
           "bonus": 0,
-          "bps": 1
+          "bps": 2
         },
         {
           "element": 306,
@@ -13944,7 +13944,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-09-20T01:24:44.528205+00:00",
+  "fixture_status_generated_at_utc": "2026-09-20T06:43:18.102722+00:00",
   "fixtures": [
     {
       "id": 41,
