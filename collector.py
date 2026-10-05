@@ -16,7 +16,7 @@ GW_PRIZE_EUR = 5
 MONTHLY_PRIZE_EUR = 5
 
 
-def fetch_json(url, retries=4, timeout=30):
+def fetch_json(url, retries=3, timeout=12):
     last = None
     for attempt in range(retries):
         try:
@@ -83,9 +83,9 @@ def get_all_standings(phase=1):
     return league or {}, rows
 
 
-def safe_fetch(url):
+def safe_fetch(url, retries=3, timeout=12):
     try:
-        return fetch_json(url), None
+        return fetch_json(url, retries=retries, timeout=timeout), None
     except Exception as exc:
         return None, str(exc)
 
@@ -179,10 +179,15 @@ def main():
             _, monthly_rows = get_all_standings(phase=int(monthly_phase["id"]))
         except Exception as exc:
             monthly_error = str(exc)
+            raise RuntimeError(
+                f"Monthly standings unavailable for phase {monthly_phase['id']}: {monthly_error}"
+            ) from exc
     monthly_by_entry = {int(row["entry"]): row for row in monthly_rows}
 
     live_raw, live_error = safe_fetch(f"{BASE}/event/{gw}/live/")
-    live = normalize_live(live_raw or {})
+    if live_raw is None:
+        raise RuntimeError(f"Live endpoint unavailable for GW{gw}: {live_error}")
+    live = normalize_live(live_raw)
 
     managers = []
     selection_count = Counter()
@@ -193,7 +198,16 @@ def main():
     for row in standings:
         entry_id = int(row["entry"])
         picks_data, picks_error = safe_fetch(f"{BASE}/entry/{entry_id}/event/{gw}/picks/")
-        transfers_data, transfers_error = safe_fetch(f"{BASE}/entry/{entry_id}/transfers/")
+        if picks_data is None:
+            raise RuntimeError(
+                f"Picks unavailable for entry {entry_id} in GW{gw}: {picks_error}"
+            )
+        # Transfers are useful for rival monitoring but are not required to publish
+        # a healthy snapshot. Keep their retries short so a degraded transfers
+        # endpoint cannot hold the whole workflow open for many minutes.
+        transfers_data, transfers_error = safe_fetch(
+            f"{BASE}/entry/{entry_id}/transfers/", retries=2, timeout=5
+        )
         monthly_row = monthly_by_entry.get(entry_id, {})
 
         manager = {
