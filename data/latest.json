@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-10-06T19:32:35.776300+00:00",
+  "generated_at_utc": "2026-10-06T23:12:40.439325+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -14236,7 +14236,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-10-06T19:32:35.975664+00:00",
+  "fixture_status_generated_at_utc": "2026-10-06T23:12:40.769447+00:00",
   "fixtures": [
     {
       "id": 41,
