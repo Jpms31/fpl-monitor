@@ -282,6 +282,17 @@ def main():
                 - settled_current_gw
                 + int_points(manager.get("event_points_from_standings"))
             )
+        elif (
+            monthly_phase
+            and int(monthly_phase.get("start_event") or -1) == gw
+        ):
+            # At the start of a new monthly phase the official phase standings
+            # can lag for several hours. In that specific case the month consists
+            # only of the current GW, so the live monthly score is exactly the
+            # current GW score from the league standings.
+            manager["monthly_live_points"] = int_points(
+                manager.get("event_points_from_standings")
+            )
 
         managers.append(manager)
 
@@ -297,7 +308,7 @@ def main():
     monthly_live_leaders = []
     monthly_live_top_five = []
     monthly_live_max = None
-    if monthly_rows:
+    if any(m.get("monthly_live_points") is not None for m in managers):
         monthly_live_ranked = competition_ranks(managers, "monthly_live_points")
         for manager, rank, _ in monthly_live_ranked:
             manager["monthly_live_rank"] = rank
@@ -415,6 +426,15 @@ def main():
             "my_official_rank": my_manager.get("monthly_rank") if my_manager else None,
             "my_official_points": int_points(my_manager.get("monthly_total")) if my_manager and my_manager.get("monthly_total") is not None else None,
             "standings_ok": bool(monthly_rows),
+            "live_source": (
+                "official_phase_standings"
+                if monthly_rows
+                else (
+                    "current_gw_fallback"
+                    if monthly_phase and int(monthly_phase.get("start_event") or -1) == gw
+                    else None
+                )
+            ),
             "error": monthly_error,
         },
     }
