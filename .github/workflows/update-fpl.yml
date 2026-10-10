@@ -34,10 +34,14 @@ jobs:
           python-version: "3.12"
 
       - name: Collect and validate FPL data
-        run: python collect_snapshot.py
+        run: |
+          set -o pipefail
+          python collect_snapshot.py 2>&1 | tee /tmp/fpl-collect.log
 
       - name: Validate official fixture completion state
-        run: python fixture_guard.py
+        run: |
+          set -o pipefail
+          python fixture_guard.py 2>&1 | tee /tmp/fpl-fixtures.log
 
       - name: Commit latest snapshot
         run: |
@@ -49,4 +53,23 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/latest.json
           git commit -m "Update FPL league snapshot"
+          git push
+
+      - name: Publish failure diagnostics
+        if: failure()
+        run: |
+          mkdir -p data
+          {
+            echo "generated_at_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo
+            echo "=== collect_snapshot.py ==="
+            cat /tmp/fpl-collect.log 2>/dev/null || true
+            echo
+            echo "=== fixture_guard.py ==="
+            cat /tmp/fpl-fixtures.log 2>/dev/null || true
+          } > data/last-run-error.log
+          git config user.name "fpl-monitor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/last-run-error.log
+          git commit -m "Record FPL monitor failure diagnostics" || exit 0
           git push
