@@ -1,0 +1,15 @@
+generated_at_utc=2026-10-10T16:25:13Z
+
+=== collect_snapshot.py ===
+Wrote data/latest.pending.json: GW6, 47 managers, 47 picks OK, 1 non-fatal errors
+Traceback (most recent call last):
+  File "/home/runner/work/fpl-monitor/fpl-monitor/collect_snapshot.py", line 91, in <module>
+    main()
+  File "/home/runner/work/fpl-monitor/fpl-monitor/collect_snapshot.py", line 79, in main
+    snapshot = validate_snapshot(PENDING_PATH)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/fpl-monitor/fpl-monitor/collect_snapshot.py", line 65, in validate_snapshot
+    raise RuntimeError("Refusing to publish snapshot: monthly standings are not healthy")
+RuntimeError: Refusing to publish snapshot: monthly standings are not healthy
+
+=== fixture_guard.py ===
