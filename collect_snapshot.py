@@ -62,7 +62,14 @@ def validate_snapshot(path):
 
     monthly = snapshot.get("private_competition", {}).get("monthly")
     if monthly is not None and health.get("monthly_standings_ok") is not True:
-        raise RuntimeError("Refusing to publish snapshot: monthly standings are not healthy")
+        # Monthly phase standings can legitimately lag at the start of a new
+        # calendar phase. Do not discard an otherwise healthy GW snapshot:
+        # publish the core league/live/picks data and expose monthly health as
+        # degraded so consumers can avoid making monthly claims until it recovers.
+        print(
+            "Warning: monthly standings are not healthy; "
+            "publishing core snapshot with monthly data degraded"
+        )
 
     return snapshot
 
