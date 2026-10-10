@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-10-10T19:16:47.549250+00:00",
+  "generated_at_utc": "2026-10-10T22:37:51.975356+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -37,7 +37,7 @@
     "name": "October",
     "start_event": 6,
     "stop_event": 9,
-    "highest_score": null
+    "highest_score": 114
   },
   "private_competition": {
     "gw_prize_eur": 5,
@@ -205,12 +205,19 @@
       "my_live_rank": 3,
       "my_live_points": 68,
       "my_live_gap_to_lead": 5,
-      "official_leaders": [],
-      "official_leading_points": null,
-      "my_official_rank": null,
-      "my_official_points": null,
-      "standings_ok": false,
-      "live_source": "current_gw_fallback",
+      "official_leaders": [
+        {
+          "entry_id": 1095391,
+          "team_name": "Aston Villains",
+          "rank": 1,
+          "points": 73
+        }
+      ],
+      "official_leading_points": 73,
+      "my_official_rank": 4,
+      "my_official_points": 68,
+      "standings_ok": true,
+      "live_source": "official_phase_standings",
       "error": null
     }
   },
@@ -219,7 +226,7 @@
     "standings_ok": true,
     "live_ok": true,
     "live_error": null,
-    "monthly_standings_ok": false,
+    "monthly_standings_ok": true,
     "monthly_error": null,
     "managers_total": 47,
     "managers_with_picks": 47,
@@ -1763,9 +1770,9 @@
       "league_last_rank": 1,
       "league_total": 446,
       "event_points_from_standings": 51,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 23,
+      "monthly_last_rank": 0,
+      "monthly_total": 51,
       "monthly_live_points": 51,
       "monthly_live_rank": 23,
       "is_me": false,
@@ -1774,18 +1781,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 395,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 15137,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 51,
+        "total_points": 446,
+        "rank": 2164902,
+        "rank_sort": 2238452,
+        "overall_rank": 38673,
+        "percentile_rank": 20,
+        "overall_rank_percentage": "0.4",
         "bank": 7,
         "value": 1012,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 5
       },
       "automatic_subs": [],
       "picks": [
@@ -1885,7 +1892,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -1955,7 +1962,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 368,
@@ -2011,9 +2018,9 @@
       "league_last_rank": 3,
       "league_total": 443,
       "event_points_from_standings": 68,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 4,
+      "monthly_last_rank": 0,
+      "monthly_total": 68,
       "monthly_live_points": 68,
       "monthly_live_rank": 3,
       "is_me": true,
@@ -2022,18 +2029,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 375,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 124040,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 68,
+        "total_points": 443,
+        "rank": 324882,
+        "rank_sort": 327386,
+        "overall_rank": 52230,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "0.5",
         "bank": 8,
         "value": 1008,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 16
       },
       "automatic_subs": [],
       "picks": [
@@ -2119,7 +2126,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 453,
@@ -2147,7 +2154,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 127,
@@ -2203,7 +2210,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 346,
@@ -2278,9 +2285,9 @@
       "league_last_rank": 2,
       "league_total": 426,
       "event_points_from_standings": 49,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 29,
+      "monthly_last_rank": 0,
+      "monthly_total": 49,
       "monthly_live_points": 49,
       "monthly_live_rank": 29,
       "is_me": false,
@@ -2289,18 +2296,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 377,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 106254,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 49,
+        "total_points": 426,
+        "rank": 2638878,
+        "rank_sort": 2643449,
+        "overall_rank": 191955,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "2",
         "bank": 31,
         "value": 1021,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 10
       },
       "automatic_subs": [],
       "picks": [
@@ -2400,7 +2407,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 12,
@@ -2536,9 +2543,9 @@
       "league_last_rank": 12,
       "league_total": 424,
       "event_points_from_standings": 73,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 1,
+      "monthly_last_rank": 0,
+      "monthly_total": 73,
       "monthly_live_points": 73,
       "monthly_live_rank": 1,
       "is_me": false,
@@ -2547,18 +2554,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 351,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 706165,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 73,
+        "total_points": 424,
+        "rank": 124474,
+        "rank_sort": 125876,
+        "overall_rank": 218204,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "2",
         "bank": 0,
         "value": 1021,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 9
       },
       "automatic_subs": [],
       "picks": [
@@ -2630,7 +2637,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 40,
@@ -2644,7 +2651,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 15,
@@ -2794,9 +2801,9 @@
       "league_last_rank": 4,
       "league_total": 419,
       "event_points_from_standings": 52,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 22,
+      "monthly_last_rank": 0,
+      "monthly_total": 52,
       "monthly_live_points": 52,
       "monthly_live_rank": 22,
       "is_me": false,
@@ -2805,18 +2812,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 367,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 236178,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 52,
+        "total_points": 419,
+        "rank": 2127032,
+        "rank_sort": 2132461,
+        "overall_rank": 291745,
+        "percentile_rank": 20,
+        "overall_rank_percentage": "3",
         "bank": 4,
         "value": 1022,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 4
       },
       "automatic_subs": [],
       "picks": [
@@ -2888,7 +2895,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 480,
@@ -3061,9 +3068,9 @@
       "league_last_rank": 8,
       "league_total": 418,
       "event_points_from_standings": 66,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 5,
+      "monthly_last_rank": 0,
+      "monthly_total": 66,
       "monthly_live_points": 66,
       "monthly_live_rank": 5,
       "is_me": false,
@@ -3072,18 +3079,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 352,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 648047,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 66,
+        "total_points": 418,
+        "rank": 440225,
+        "rank_sort": 443106,
+        "overall_rank": 309391,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "3",
         "bank": 7,
         "value": 1018,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 2
       },
       "automatic_subs": [],
       "picks": [
@@ -3099,7 +3106,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 31,
@@ -3127,7 +3134,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 4
+          "bps": 5
         },
         {
           "element": 8,
@@ -3155,7 +3162,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -3183,7 +3190,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 12,
@@ -3328,9 +3335,9 @@
       "league_last_rank": 11,
       "league_total": 414,
       "event_points_from_standings": 63,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 9,
+      "monthly_last_rank": 0,
+      "monthly_total": 63,
       "monthly_live_points": 63,
       "monthly_live_rank": 7,
       "is_me": false,
@@ -3339,18 +3346,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 351,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 686560,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 63,
+        "total_points": 414,
+        "rank": 656650,
+        "rank_sort": 660290,
+        "overall_rank": 388371,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "4",
         "bank": 15,
         "value": 1011,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 7
       },
       "automatic_subs": [],
       "picks": [
@@ -3422,7 +3429,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 40,
@@ -3436,7 +3443,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 15,
@@ -3595,9 +3602,9 @@
       "league_last_rank": 14,
       "league_total": 414,
       "event_points_from_standings": 68,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 3,
+      "monthly_last_rank": 0,
+      "monthly_total": 68,
       "monthly_live_points": 68,
       "monthly_live_rank": 3,
       "is_me": false,
@@ -3606,18 +3613,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 346,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 927363,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 68,
+        "total_points": 414,
+        "rank": 310462,
+        "rank_sort": 316886,
+        "overall_rank": 395040,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "4",
         "bank": 5,
         "value": 1008,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 2
       },
       "automatic_subs": [],
       "picks": [
@@ -3633,7 +3640,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 504,
@@ -3745,7 +3752,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 411,
@@ -3801,7 +3808,7 @@
           "live_points": 1,
           "minutes": 38,
           "bonus": 0,
-          "bps": 7
+          "bps": 8
         },
         {
           "element": 321,
@@ -3853,9 +3860,9 @@
       "league_last_rank": 6,
       "league_total": 413,
       "event_points_from_standings": 57,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 14,
+      "monthly_last_rank": 0,
+      "monthly_total": 57,
       "monthly_live_points": 57,
       "monthly_live_rank": 14,
       "is_me": false,
@@ -3864,18 +3871,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 356,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 505752,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 57,
+        "total_points": 413,
+        "rank": 1240374,
+        "rank_sort": 1247355,
+        "overall_rank": 401778,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "4",
         "bank": 2,
         "value": 1013,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 1
       },
       "automatic_subs": [],
       "picks": [
@@ -3961,7 +3968,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 368,
@@ -4073,7 +4080,7 @@
           "live_points": 1,
           "minutes": 38,
           "bonus": 0,
-          "bps": 7
+          "bps": 8
         },
         {
           "element": 387,
@@ -4101,9 +4108,9 @@
       "league_last_rank": 9,
       "league_total": 409,
       "event_points_from_standings": 57,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 14,
+      "monthly_last_rank": 0,
+      "monthly_total": 57,
       "monthly_live_points": 57,
       "monthly_live_rank": 14,
       "is_me": false,
@@ -4112,18 +4119,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 352,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 655162,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 57,
+        "total_points": 409,
+        "rank": 1240374,
+        "rank_sort": 1244832,
+        "overall_rank": 500712,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "4",
         "bank": 5,
         "value": 1022,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 8
       },
       "automatic_subs": [],
       "picks": [
@@ -4209,7 +4216,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 12,
@@ -4237,7 +4244,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 165,
@@ -4293,7 +4300,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 94,
@@ -4349,9 +4356,9 @@
       "league_last_rank": 5,
       "league_total": 406,
       "event_points_from_standings": 47,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 32,
+      "monthly_last_rank": 0,
+      "monthly_total": 47,
       "monthly_live_points": 47,
       "monthly_live_rank": 32,
       "is_me": false,
@@ -4360,13 +4367,13 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 359,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 432311,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 47,
+        "total_points": 406,
+        "rank": 3058495,
+        "rank_sort": 3095730,
+        "overall_rank": 598431,
+        "percentile_rank": 30,
+        "overall_rank_percentage": "5",
         "bank": 2,
         "value": 1008,
         "event_transfers": 1,
@@ -4471,7 +4478,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 399,
@@ -4607,9 +4614,9 @@
       "league_last_rank": 9,
       "league_total": 406,
       "event_points_from_standings": 54,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 21,
+      "monthly_last_rank": 0,
+      "monthly_total": 54,
       "monthly_live_points": 54,
       "monthly_live_rank": 20,
       "is_me": false,
@@ -4618,18 +4625,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 352,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 655162,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 54,
+        "total_points": 406,
+        "rank": 1794698,
+        "rank_sort": 1813870,
+        "overall_rank": 598431,
+        "percentile_rank": 20,
+        "overall_rank_percentage": "5",
         "bank": 0,
         "value": 1004,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 11
       },
       "automatic_subs": [],
       "picks": [
@@ -4729,7 +4736,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 453,
@@ -4874,9 +4881,9 @@
       "league_last_rank": 13,
       "league_total": 404,
       "event_points_from_standings": 56,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 19,
+      "monthly_last_rank": 0,
+      "monthly_total": 56,
       "monthly_live_points": 56,
       "monthly_live_rank": 19,
       "is_me": false,
@@ -4885,18 +4892,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 348,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 833980,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 56,
+        "total_points": 404,
+        "rank": 1375497,
+        "rank_sort": 1421353,
+        "overall_rank": 648513,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "6",
         "bank": 21,
         "value": 1012,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 17
       },
       "automatic_subs": [],
       "picks": [
@@ -4968,7 +4975,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 399,
@@ -5066,7 +5073,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 165,
@@ -5168,9 +5175,9 @@
       "league_last_rank": 18,
       "league_total": 404,
       "event_points_from_standings": 63,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 7,
+      "monthly_last_rank": 0,
+      "monthly_total": 63,
       "monthly_live_points": 63,
       "monthly_live_rank": 7,
       "is_me": false,
@@ -5179,13 +5186,13 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 341,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 1208158,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 63,
+        "total_points": 404,
+        "rank": 594322,
+        "rank_sort": 604619,
+        "overall_rank": 664410,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "6",
         "bank": 2,
         "value": 1014,
         "event_transfers": 0,
@@ -5276,7 +5283,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 399,
@@ -5416,9 +5423,9 @@
       "league_last_rank": 15,
       "league_total": 402,
       "event_points_from_standings": 57,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 14,
+      "monthly_last_rank": 0,
+      "monthly_total": 57,
       "monthly_live_points": 57,
       "monthly_live_rank": 14,
       "is_me": false,
@@ -5427,18 +5434,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 345,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 953327,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 57,
+        "total_points": 402,
+        "rank": 1240374,
+        "rank_sort": 1281256,
+        "overall_rank": 701034,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "6",
         "bank": 4,
         "value": 1011,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 18
       },
       "automatic_subs": [],
       "picks": [
@@ -5510,7 +5517,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 40,
@@ -5524,7 +5531,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -5608,7 +5615,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 277,
@@ -5664,9 +5671,9 @@
       "league_last_rank": 22,
       "league_total": 396,
       "event_points_from_standings": 69,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 2,
+      "monthly_last_rank": 0,
+      "monthly_total": 69,
       "monthly_live_points": 69,
       "monthly_live_rank": 2,
       "is_me": false,
@@ -5675,18 +5682,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 327,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 2082609,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 69,
+        "total_points": 396,
+        "rank": 241331,
+        "rank_sort": 257023,
+        "overall_rank": 910845,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "8",
         "bank": 8,
         "value": 1016,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 7
       },
       "automatic_subs": [],
       "picks": [
@@ -5758,7 +5765,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 40,
@@ -5772,7 +5779,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 15,
@@ -5856,7 +5863,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 367,
@@ -5912,9 +5919,9 @@
       "league_last_rank": 7,
       "league_total": 395,
       "event_points_from_standings": 40,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 38,
+      "monthly_last_rank": 0,
+      "monthly_total": 40,
       "monthly_live_points": 40,
       "monthly_live_rank": 38,
       "is_me": false,
@@ -5923,18 +5930,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 355,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 541087,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 40,
+        "total_points": 395,
+        "rank": 4798849,
+        "rank_sort": 4800693,
+        "overall_rank": 974365,
+        "percentile_rank": 45,
+        "overall_rank_percentage": "9",
         "bank": 2,
         "value": 1008,
         "event_transfers": 3,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 31
       },
       "automatic_subs": [],
       "picks": [
@@ -5950,7 +5957,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 449,
@@ -6006,7 +6013,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 426,
@@ -6146,7 +6153,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 22
         }
       ],
       "current_gw_transfers": [
@@ -6188,9 +6195,9 @@
       "league_last_rank": 16,
       "league_total": 394,
       "event_points_from_standings": 50,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 26,
+      "monthly_last_rank": 0,
+      "monthly_total": 50,
       "monthly_live_points": 50,
       "monthly_live_rank": 24,
       "is_me": false,
@@ -6199,18 +6206,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 344,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 1041955,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 50,
+        "total_points": 394,
+        "rank": 2444101,
+        "rank_sort": 2472140,
+        "overall_rank": 1023753,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "9",
         "bank": 9,
         "value": 1016,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 4
       },
       "automatic_subs": [],
       "picks": [
@@ -6310,7 +6317,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 236,
@@ -6380,7 +6387,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 138,
@@ -6446,9 +6453,9 @@
       "league_last_rank": 20,
       "league_total": 390,
       "event_points_from_standings": 58,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 13,
+      "monthly_last_rank": 0,
+      "monthly_total": 58,
       "monthly_live_points": 58,
       "monthly_live_rank": 13,
       "is_me": false,
@@ -6457,18 +6464,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 332,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 1735975,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 58,
+        "total_points": 390,
+        "rank": 1107709,
+        "rank_sort": 1139584,
+        "overall_rank": 1163031,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "11",
         "bank": 0,
         "value": 1004,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 4
       },
       "automatic_subs": [],
       "picks": [
@@ -6568,7 +6575,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 12,
@@ -6785,9 +6792,9 @@
       "league_last_rank": 17,
       "league_total": 389,
       "event_points_from_standings": 46,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 33,
+      "monthly_last_rank": 0,
+      "monthly_total": 46,
       "monthly_live_points": 46,
       "monthly_live_rank": 33,
       "is_me": false,
@@ -6796,18 +6803,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 343,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 1064099,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 46,
+        "total_points": 389,
+        "rank": 3153989,
+        "rank_sort": 3173158,
+        "overall_rank": 1207675,
+        "percentile_rank": 30,
+        "overall_rank_percentage": "11",
         "bank": 3,
         "value": 1019,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 5
       },
       "automatic_subs": [],
       "picks": [
@@ -6823,7 +6830,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 31,
@@ -6879,7 +6886,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 15,
@@ -7033,9 +7040,9 @@
       "league_last_rank": 21,
       "league_total": 388,
       "event_points_from_standings": 60,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 10,
+      "monthly_last_rank": 0,
+      "monthly_total": 60,
       "monthly_live_points": 60,
       "monthly_live_rank": 10,
       "is_me": false,
@@ -7044,18 +7051,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 328,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 2043638,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 60,
+        "total_points": 388,
+        "rank": 874819,
+        "rank_sort": 926272,
+        "overall_rank": 1262378,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "12",
         "bank": 15,
         "value": 1002,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 12
       },
       "automatic_subs": [],
       "picks": [
@@ -7169,7 +7176,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -7390,9 +7397,9 @@
       "league_last_rank": 23,
       "league_total": 386,
       "event_points_from_standings": 60,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 10,
+      "monthly_last_rank": 0,
+      "monthly_total": 60,
       "monthly_live_points": 60,
       "monthly_live_rank": 10,
       "is_me": false,
@@ -7401,18 +7408,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 326,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 2175978,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 60,
+        "total_points": 386,
+        "rank": 874819,
+        "rank_sort": 875655,
+        "overall_rank": 1347352,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "12",
         "bank": 2,
         "value": 999,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 1
       },
       "automatic_subs": [],
       "picks": [
@@ -7526,7 +7533,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 165,
@@ -7765,9 +7772,9 @@
       "league_last_rank": 19,
       "league_total": 386,
       "event_points_from_standings": 50,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 26,
+      "monthly_last_rank": 0,
+      "monthly_total": 50,
       "monthly_live_points": 50,
       "monthly_live_rank": 24,
       "is_me": false,
@@ -7776,18 +7783,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 336,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 1506852,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 50,
+        "total_points": 386,
+        "rank": 2444101,
+        "rank_sort": 2477066,
+        "overall_rank": 1381082,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "12",
         "bank": 8,
         "value": 1007,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 5
       },
       "automatic_subs": [],
       "picks": [
@@ -7887,7 +7894,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -8023,9 +8030,9 @@
       "league_last_rank": 24,
       "league_total": 384,
       "event_points_from_standings": 59,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 12,
+      "monthly_last_rank": 0,
+      "monthly_total": 59,
       "monthly_live_points": 59,
       "monthly_live_rank": 12,
       "is_me": false,
@@ -8034,18 +8041,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 325,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 2241907,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 59,
+        "total_points": 384,
+        "rank": 1081122,
+        "rank_sort": 1096263,
+        "overall_rank": 1454273,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "13",
         "bank": 27,
         "value": 1010,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 1
       },
       "automatic_subs": [],
       "picks": [
@@ -8159,7 +8166,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 94,
@@ -8243,7 +8250,7 @@
           "live_points": 1,
           "minutes": 38,
           "bonus": 0,
-          "bps": 7
+          "bps": 8
         },
         {
           "element": 173,
@@ -8290,9 +8297,9 @@
       "league_last_rank": 26,
       "league_total": 370,
       "event_points_from_standings": 57,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 18,
+      "monthly_last_rank": 0,
+      "monthly_total": 57,
       "monthly_live_points": 57,
       "monthly_live_rank": 14,
       "is_me": false,
@@ -8301,18 +8308,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 313,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 3257857,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 57,
+        "total_points": 370,
+        "rank": 1344623,
+        "rank_sort": 1358120,
+        "overall_rank": 2237832,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "20",
         "bank": 1,
         "value": 999,
         "event_transfers": 2,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 5
       },
       "automatic_subs": [],
       "picks": [
@@ -8482,7 +8489,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 279,
@@ -8557,9 +8564,9 @@
       "league_last_rank": 25,
       "league_total": 365,
       "event_points_from_standings": 50,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 24,
+      "monthly_last_rank": 0,
+      "monthly_total": 50,
       "monthly_live_points": 50,
       "monthly_live_rank": 24,
       "is_me": false,
@@ -8568,18 +8575,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 315,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 3114373,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 50,
+        "total_points": 365,
+        "rank": 2343286,
+        "rank_sort": 2383370,
+        "overall_rank": 2555642,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "23",
         "bank": 0,
         "value": 1000,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 2
       },
       "automatic_subs": [],
       "picks": [
@@ -8665,7 +8672,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -8923,9 +8930,9 @@
       "league_last_rank": 32,
       "league_total": 363,
       "event_points_from_standings": 66,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 5,
+      "monthly_last_rank": 0,
+      "monthly_total": 66,
       "monthly_live_points": 66,
       "monthly_live_rank": 5,
       "is_me": false,
@@ -8934,13 +8941,13 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 301,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 4423699,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 66,
+        "total_points": 363,
+        "rank": 440225,
+        "rank_sort": 442137,
+        "overall_rank": 2724310,
+        "percentile_rank": 5,
+        "overall_rank_percentage": "25",
         "bank": 25,
         "value": 1013,
         "event_transfers": 2,
@@ -9045,7 +9052,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 427,
@@ -9115,7 +9122,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -9
+          "bps": -8
         },
         {
           "element": 167,
@@ -9190,9 +9197,9 @@
       "league_last_rank": 27,
       "league_total": 361,
       "event_points_from_standings": 50,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 24,
+      "monthly_last_rank": 0,
+      "monthly_total": 50,
       "monthly_live_points": 50,
       "monthly_live_rank": 24,
       "is_me": false,
@@ -9201,18 +9208,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 311,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 3453347,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 50,
+        "total_points": 361,
+        "rank": 2343286,
+        "rank_sort": 2383745,
+        "overall_rank": 2810243,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "26",
         "bank": 4,
         "value": 1005,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 18
       },
       "automatic_subs": [],
       "picks": [
@@ -9298,7 +9305,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 68,
@@ -9340,7 +9347,7 @@
           "live_points": 1,
           "minutes": 38,
           "bonus": 0,
-          "bps": 7
+          "bps": 8
         },
         {
           "element": 411,
@@ -9424,7 +9431,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 20
+          "bps": 22
         }
       ],
       "current_gw_transfers": [],
@@ -9438,9 +9445,9 @@
       "league_last_rank": 31,
       "league_total": 356,
       "event_points_from_standings": 54,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 20,
+      "monthly_last_rank": 0,
+      "monthly_total": 54,
       "monthly_live_points": 54,
       "monthly_live_rank": 20,
       "is_me": false,
@@ -9449,18 +9456,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 302,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 4306982,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 54,
+        "total_points": 356,
+        "rank": 1753979,
+        "rank_sort": 1761952,
+        "overall_rank": 3183961,
+        "percentile_rank": 20,
+        "overall_rank_percentage": "29",
         "bank": 21,
         "value": 1004,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 7
       },
       "automatic_subs": [],
       "picks": [
@@ -9574,7 +9581,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -9630,7 +9637,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 290,
@@ -9658,7 +9665,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 4
+          "bps": 5
         },
         {
           "element": 321,
@@ -9696,9 +9703,9 @@
       "league_last_rank": 30,
       "league_total": 354,
       "event_points_from_standings": 49,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 29,
+      "monthly_last_rank": 0,
+      "monthly_total": 49,
       "monthly_live_points": 49,
       "monthly_live_rank": 29,
       "is_me": false,
@@ -9707,18 +9714,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 305,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 4007297,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 49,
+        "total_points": 354,
+        "rank": 2638878,
+        "rank_sort": 2653859,
+        "overall_rank": 3307441,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "30",
         "bank": 0,
         "value": 1013,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 4
       },
       "automatic_subs": [],
       "picks": [
@@ -9790,7 +9797,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 12,
@@ -9888,7 +9895,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 282,
@@ -9954,9 +9961,9 @@
       "league_last_rank": 38,
       "league_total": 348,
       "event_points_from_standings": 63,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 7,
+      "monthly_last_rank": 0,
+      "monthly_total": 63,
       "monthly_live_points": 63,
       "monthly_live_rank": 7,
       "is_me": false,
@@ -9965,18 +9972,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 285,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 5847270,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 63,
+        "total_points": 348,
+        "rank": 594322,
+        "rank_sort": 602077,
+        "overall_rank": 3738598,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "34",
         "bank": 0,
         "value": 1011,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 3
       },
       "automatic_subs": [],
       "picks": [
@@ -10062,7 +10069,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 368,
@@ -10146,7 +10153,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 212,
@@ -10202,9 +10209,9 @@
       "league_last_rank": 37,
       "league_total": 345,
       "event_points_from_standings": 57,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 14,
+      "monthly_last_rank": 0,
+      "monthly_total": 57,
       "monthly_live_points": 57,
       "monthly_live_rank": 14,
       "is_me": false,
@@ -10213,18 +10220,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 288,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 5586615,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 57,
+        "total_points": 345,
+        "rank": 1240374,
+        "rank_sort": 1285797,
+        "overall_rank": 3958612,
+        "percentile_rank": 15,
+        "overall_rank_percentage": "36",
         "bank": 19,
         "value": 1003,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 10
       },
       "automatic_subs": [],
       "picks": [
@@ -10324,7 +10331,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -10595,9 +10602,9 @@
       "league_last_rank": 28,
       "league_total": 343,
       "event_points_from_standings": 35,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 42,
+      "monthly_last_rank": 0,
+      "monthly_total": 35,
       "monthly_live_points": 35,
       "monthly_live_rank": 42,
       "is_me": false,
@@ -10606,18 +10613,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 308,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 3750304,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 35,
+        "total_points": 343,
+        "rank": 5843280,
+        "rank_sort": 5904227,
+        "overall_rank": 4105306,
+        "percentile_rank": 55,
+        "overall_rank_percentage": "37",
         "bank": 1,
         "value": 1008,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 12
       },
       "automatic_subs": [],
       "picks": [
@@ -10745,7 +10752,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 426,
@@ -10925,9 +10932,9 @@
       "league_last_rank": 35,
       "league_total": 338,
       "event_points_from_standings": 43,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 35,
+      "monthly_last_rank": 0,
+      "monthly_total": 43,
       "monthly_live_points": 43,
       "monthly_live_rank": 35,
       "is_me": false,
@@ -10936,18 +10943,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 295,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 4956611,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 43,
+        "total_points": 338,
+        "rank": 3972984,
+        "rank_sort": 4013332,
+        "overall_rank": 4490438,
+        "percentile_rank": 40,
+        "overall_rank_percentage": "41",
         "bank": 24,
         "value": 999,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 16
       },
       "automatic_subs": [],
       "picks": [
@@ -11047,7 +11054,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 127,
@@ -11075,7 +11082,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 399,
@@ -11183,9 +11190,9 @@
       "league_last_rank": 33,
       "league_total": 336,
       "event_points_from_standings": 36,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 41,
+      "monthly_last_rank": 0,
+      "monthly_total": 36,
       "monthly_live_points": 36,
       "monthly_live_rank": 40,
       "is_me": false,
@@ -11194,18 +11201,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 300,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 4460866,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 36,
+        "total_points": 336,
+        "rank": 5746608,
+        "rank_sort": 5755201,
+        "overall_rank": 4612208,
+        "percentile_rank": 55,
+        "overall_rank_percentage": "42",
         "bank": 5,
         "value": 1015,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 10
       },
       "automatic_subs": [],
       "picks": [
@@ -11305,7 +11312,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 399,
@@ -11441,9 +11448,9 @@
       "league_last_rank": 34,
       "league_total": 335,
       "event_points_from_standings": 38,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 39,
+      "monthly_last_rank": 0,
+      "monthly_total": 38,
       "monthly_live_points": 38,
       "monthly_live_rank": 39,
       "is_me": false,
@@ -11452,18 +11459,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 297,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 4771462,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 38,
+        "total_points": 335,
+        "rank": 5069201,
+        "rank_sort": 5101000,
+        "overall_rank": 4696406,
+        "percentile_rank": 50,
+        "overall_rank_percentage": "43",
         "bank": 11,
         "value": 1000,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 5
       },
       "automatic_subs": [],
       "picks": [
@@ -11577,7 +11584,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 480,
@@ -11633,7 +11640,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -9
+          "bps": -8
         },
         {
           "element": 346,
@@ -11689,9 +11696,9 @@
       "league_last_rank": 41,
       "league_total": 327,
       "event_points_from_standings": 50,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 26,
+      "monthly_last_rank": 0,
+      "monthly_total": 50,
       "monthly_live_points": 50,
       "monthly_live_rank": 24,
       "is_me": false,
@@ -11700,18 +11707,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 277,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 6501631,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 50,
+        "total_points": 327,
+        "rank": 2444101,
+        "rank_sort": 2457194,
+        "overall_rank": 5294318,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "48",
         "bank": 4,
         "value": 1002,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 1
       },
       "automatic_subs": [],
       "picks": [
@@ -11797,7 +11804,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 399,
@@ -11895,7 +11902,7 @@
           "live_points": -1,
           "minutes": 83,
           "bonus": 0,
-          "bps": -1
+          "bps": -2
         },
         {
           "element": 498,
@@ -11947,9 +11954,9 @@
       "league_last_rank": 39,
       "league_total": 324,
       "event_points_from_standings": 43,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 35,
+      "monthly_last_rank": 0,
+      "monthly_total": 43,
       "monthly_live_points": 43,
       "monthly_live_rank": 35,
       "is_me": false,
@@ -11958,18 +11965,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 281,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 6205199,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 43,
+        "total_points": 324,
+        "rank": 3972984,
+        "rank_sort": 3985687,
+        "overall_rank": 5527221,
+        "percentile_rank": 40,
+        "overall_rank_percentage": "50",
         "bank": 1,
         "value": 1005,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 9
       },
       "automatic_subs": [],
       "picks": [
@@ -12055,7 +12062,7 @@
           "live_points": 8,
           "minutes": 87,
           "bonus": 0,
-          "bps": 33
+          "bps": 37
         },
         {
           "element": 427,
@@ -12139,7 +12146,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 31,
@@ -12205,9 +12212,9 @@
       "league_last_rank": 36,
       "league_total": 321,
       "event_points_from_standings": 29,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 45,
+      "monthly_last_rank": 0,
+      "monthly_total": 29,
       "monthly_live_points": 29,
       "monthly_live_rank": 44,
       "is_me": false,
@@ -12216,18 +12223,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 292,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 5200485,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 29,
+        "total_points": 321,
+        "rank": 7552340,
+        "rank_sort": 7555690,
+        "overall_rank": 5697893,
+        "percentile_rank": 70,
+        "overall_rank_percentage": "52",
         "bank": 1,
         "value": 1005,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 7
       },
       "automatic_subs": [],
       "picks": [
@@ -12439,7 +12446,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 10
+          "bps": 12
         }
       ],
       "current_gw_transfers": [
@@ -12463,9 +12470,9 @@
       "league_last_rank": 43,
       "league_total": 314,
       "event_points_from_standings": 44,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 34,
+      "monthly_last_rank": 0,
+      "monthly_total": 44,
       "monthly_live_points": 44,
       "monthly_live_rank": 34,
       "is_me": false,
@@ -12474,18 +12481,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 270,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 7036885,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 44,
+        "total_points": 314,
+        "rank": 3735574,
+        "rank_sort": 3772856,
+        "overall_rank": 6214673,
+        "percentile_rank": 35,
+        "overall_rank_percentage": "56",
         "bank": 16,
         "value": 1016,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 5
       },
       "automatic_subs": [],
       "picks": [
@@ -12655,7 +12662,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -9
+          "bps": -8
         },
         {
           "element": 88,
@@ -12721,9 +12728,9 @@
       "league_last_rank": 42,
       "league_total": 311,
       "event_points_from_standings": 36,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 40,
+      "monthly_last_rank": 0,
+      "monthly_total": 36,
       "monthly_live_points": 36,
       "monthly_live_rank": 40,
       "is_me": false,
@@ -12732,18 +12739,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 275,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 6655106,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 36,
+        "total_points": 311,
+        "rank": 5580439,
+        "rank_sort": 5690591,
+        "overall_rank": 6386122,
+        "percentile_rank": 55,
+        "overall_rank_percentage": "58",
         "bank": 5,
         "value": 993,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 11
       },
       "automatic_subs": [],
       "picks": [
@@ -12759,7 +12766,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 16
         },
         {
           "element": 390,
@@ -12969,9 +12976,9 @@
       "league_last_rank": 40,
       "league_total": 311,
       "event_points_from_standings": 32,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 43,
+      "monthly_last_rank": 0,
+      "monthly_total": 32,
       "monthly_live_points": 32,
       "monthly_live_rank": 43,
       "is_me": false,
@@ -12980,18 +12987,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 279,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 6359536,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 32,
+        "total_points": 311,
+        "rank": 6804232,
+        "rank_sort": 6831640,
+        "overall_rank": 6407227,
+        "percentile_rank": 65,
+        "overall_rank_percentage": "58",
         "bank": 1,
         "value": 1001,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 12
       },
       "automatic_subs": [],
       "picks": [
@@ -13021,7 +13028,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": 2
+          "bps": 5
         },
         {
           "element": 4,
@@ -13091,7 +13098,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 261,
@@ -13189,7 +13196,7 @@
           "live_points": 3,
           "minutes": 90,
           "bonus": 0,
-          "bps": 4
+          "bps": 5
         },
         {
           "element": 586,
@@ -13227,9 +13234,9 @@
       "league_last_rank": 29,
       "league_total": 308,
       "event_points_from_standings": 1,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 47,
+      "monthly_last_rank": 0,
+      "monthly_total": 1,
       "monthly_live_points": 1,
       "monthly_live_rank": 47,
       "is_me": false,
@@ -13238,18 +13245,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 307,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 3821253,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 1,
+        "total_points": 308,
+        "rank": 11004173,
+        "rank_sort": 11004832,
+        "overall_rank": 6572886,
+        "percentile_rank": 100,
+        "overall_rank_percentage": "60",
         "bank": 1,
         "value": 1003,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 15
       },
       "automatic_subs": [],
       "picks": [
@@ -13475,9 +13482,9 @@
       "league_last_rank": 44,
       "league_total": 305,
       "event_points_from_standings": 42,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 37,
+      "monthly_last_rank": 0,
+      "monthly_total": 42,
       "monthly_live_points": 42,
       "monthly_live_rank": 37,
       "is_me": false,
@@ -13486,18 +13493,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 263,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 7466362,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 42,
+        "total_points": 305,
+        "rank": 4072263,
+        "rank_sort": 4108040,
+        "overall_rank": 6757181,
+        "percentile_rank": 40,
+        "overall_rank_percentage": "61",
         "bank": 16,
         "value": 1005,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 3
       },
       "automatic_subs": [],
       "picks": [
@@ -13611,7 +13618,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 124,
@@ -13913,9 +13920,9 @@
       "league_last_rank": 46,
       "league_total": 293,
       "event_points_from_standings": 48,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 31,
+      "monthly_last_rank": 0,
+      "monthly_total": 48,
       "monthly_live_points": 48,
       "monthly_live_rank": 31,
       "is_me": false,
@@ -13924,18 +13931,18 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 245,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 8425334,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 48,
+        "total_points": 293,
+        "rank": 2729092,
+        "rank_sort": 2794745,
+        "overall_rank": 7464688,
+        "percentile_rank": 25,
+        "overall_rank_percentage": "68",
         "bank": 4,
         "value": 994,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 8
       },
       "automatic_subs": [],
       "picks": [
@@ -14007,7 +14014,7 @@
           "live_points": 1,
           "minutes": 38,
           "bonus": 0,
-          "bps": 7
+          "bps": 8
         },
         {
           "element": 40,
@@ -14021,7 +14028,7 @@
           "live_points": 9,
           "minutes": 83,
           "bonus": 0,
-          "bps": 37
+          "bps": 39
         },
         {
           "element": 480,
@@ -14147,7 +14154,7 @@
           "live_points": 4,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 12
         }
       ],
       "current_gw_transfers": [],
@@ -14161,9 +14168,9 @@
       "league_last_rank": 45,
       "league_total": 272,
       "event_points_from_standings": 19,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 46,
+      "monthly_last_rank": 0,
+      "monthly_total": 19,
       "monthly_live_points": 19,
       "monthly_live_rank": 46,
       "is_me": false,
@@ -14172,13 +14179,13 @@
       "active_chip": null,
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 253,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 8039582,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 19,
+        "total_points": 272,
+        "rank": 9696392,
+        "rank_sort": 9697924,
+        "overall_rank": 8458067,
+        "percentile_rank": 90,
+        "overall_rank_percentage": "77",
         "bank": 11,
         "value": 1007,
         "event_transfers": 2,
@@ -14353,7 +14360,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -9
+          "bps": -8
         },
         {
           "element": 173,
@@ -14428,9 +14435,9 @@
       "league_last_rank": 47,
       "league_total": 224,
       "event_points_from_standings": 29,
-      "monthly_rank": null,
-      "monthly_last_rank": null,
-      "monthly_total": null,
+      "monthly_rank": 44,
+      "monthly_last_rank": 0,
+      "monthly_total": 29,
       "monthly_live_points": 29,
       "monthly_live_rank": 44,
       "is_me": false,
@@ -14439,18 +14446,18 @@
       "active_chip": "wildcard",
       "entry_history": {
         "event": 6,
-        "points": 0,
-        "total_points": 195,
-        "rank": null,
-        "rank_sort": null,
-        "overall_rank": 9693021,
-        "percentile_rank": null,
-        "overall_rank_percentage": null,
+        "points": 29,
+        "total_points": 224,
+        "rank": 7389551,
+        "rank_sort": 7406575,
+        "overall_rank": 9665294,
+        "percentile_rank": 70,
+        "overall_rank_percentage": "88",
         "bank": 39,
         "value": 991,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 0
+        "points_on_bench": 12
       },
       "automatic_subs": [],
       "picks": [
@@ -14606,7 +14613,7 @@
           "live_points": 4,
           "minutes": 90,
           "bonus": 0,
-          "bps": 14
+          "bps": 12
         },
         {
           "element": 109,
@@ -14806,7 +14813,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-10-10T19:16:47.764202+00:00",
+  "fixture_status_generated_at_utc": "2026-10-10T22:37:52.157688+00:00",
   "fixtures": [
     {
       "id": 51,
