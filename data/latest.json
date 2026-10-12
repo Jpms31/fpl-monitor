@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-10-11T22:41:44.606684+00:00",
+  "generated_at_utc": "2026-10-12T01:48:05.225745+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -531,9 +531,9 @@
       "live_points": 2
     },
     {
-      "element": 480,
-      "web_name": "Gibbs-White",
-      "team_short": "NFO",
+      "element": 569,
+      "web_name": "Gonzalo",
+      "team_short": "FUL",
       "selected": 8,
       "selected_pct": 17.0,
       "captained": 0,
@@ -543,9 +543,9 @@
       "live_points": 2
     },
     {
-      "element": 569,
-      "web_name": "Gonzalo",
-      "team_short": "FUL",
+      "element": 480,
+      "web_name": "Gibbs-White",
+      "team_short": "NFO",
       "selected": 8,
       "selected_pct": 17.0,
       "captained": 0,
@@ -1347,9 +1347,9 @@
       "live_points": 0
     },
     {
-      "element": 176,
-      "web_name": "Dasilva",
-      "team_short": "COV",
+      "element": 301,
+      "web_name": "Palmer",
+      "team_short": "IPS",
       "selected": 1,
       "selected_pct": 2.1,
       "captained": 0,
@@ -1359,9 +1359,9 @@
       "live_points": 0
     },
     {
-      "element": 301,
-      "web_name": "Palmer",
-      "team_short": "IPS",
+      "element": 176,
+      "web_name": "Dasilva",
+      "team_short": "COV",
       "selected": 1,
       "selected_pct": 2.1,
       "captained": 0,
@@ -1884,7 +1884,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 40,
@@ -1940,7 +1940,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -2188,7 +2188,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -2469,7 +2469,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 250,
@@ -2736,7 +2736,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 109,
@@ -2807,264 +2807,6 @@
         }
       ],
       "gw_rank_live": 34
-    },
-    {
-      "entry_id": 6479497,
-      "team_name": "Jugoplastika1975",
-      "manager_name": "Pedro Kontiki",
-      "league_rank": 5,
-      "league_last_rank": 5,
-      "league_total": 434,
-      "event_points_from_standings": 75,
-      "monthly_rank": 10,
-      "monthly_last_rank": 0,
-      "monthly_total": 75,
-      "monthly_live_points": 75,
-      "monthly_live_rank": 9,
-      "is_me": false,
-      "picks_status": "ok",
-      "picks_error": null,
-      "active_chip": null,
-      "entry_history": {
-        "event": 6,
-        "points": 75,
-        "total_points": 434,
-        "rank": 954939,
-        "rank_sort": 979673,
-        "overall_rank": 276223,
-        "percentile_rank": 10,
-        "overall_rank_percentage": "2",
-        "bank": 2,
-        "value": 1008,
-        "event_transfers": 1,
-        "event_transfers_cost": 0,
-        "points_on_bench": 4
-      },
-      "automatic_subs": [],
-      "picks": [
-        {
-          "element": 109,
-          "web_name": "Verbruggen",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 1,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 28
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 2,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 81,
-          "bonus": 1,
-          "bps": 22
-        },
-        {
-          "element": 173,
-          "web_name": "Thomas",
-          "team": 7,
-          "team_short": "COV",
-          "position": 3,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 391,
-          "web_name": "Gvardiol",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 4,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 24,
-          "bonus": 0,
-          "bps": 15
-        },
-        {
-          "element": 480,
-          "web_name": "Gibbs-White",
-          "team": 18,
-          "team_short": "NFO",
-          "position": 5,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 23
-        },
-        {
-          "element": 12,
-          "web_name": "Saka",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 6,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": true,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 9
-        },
-        {
-          "element": 40,
-          "web_name": "Rogers",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 7,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 83,
-          "bonus": 0,
-          "bps": 39
-        },
-        {
-          "element": 399,
-          "web_name": "Cherki",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 8,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 10,
-          "minutes": 90,
-          "bonus": 2,
-          "bps": 38
-        },
-        {
-          "element": 124,
-          "web_name": "Groß",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 9,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 22
-        },
-        {
-          "element": 411,
-          "web_name": "Haaland",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 10,
-          "multiplier": 2,
-          "is_captain": true,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 79,
-          "bonus": 0,
-          "bps": 33
-        },
-        {
-          "element": 165,
-          "web_name": "João Pedro",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 11,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 12,
-          "minutes": 71,
-          "bonus": 2,
-          "bps": 61
-        },
-        {
-          "element": 497,
-          "web_name": "Dubravka",
-          "team": 19,
-          "team_short": "TOT",
-          "position": 12,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 552,
-          "web_name": "Brobbey",
-          "team": 20,
-          "team_short": "SUN",
-          "position": 13,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 539,
-          "web_name": "O'Nien",
-          "team": 20,
-          "team_short": "SUN",
-          "position": 14,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 204,
-          "web_name": "Mitchell",
-          "team": 8,
-          "team_short": "CRY",
-          "position": 15,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 17
-        }
-      ],
-      "current_gw_transfers": [
-        {
-          "element_in": 12,
-          "element_in_cost": 96,
-          "element_out": 557,
-          "element_out_cost": 63,
-          "entry": 6479497,
-          "event": 6,
-          "time": "2026-10-09T20:49:18.126691Z"
-        }
-      ],
-      "gw_rank_live": 9
     },
     {
       "entry_id": 1095391,
@@ -3252,7 +2994,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 109,
@@ -3323,6 +3065,264 @@
         }
       ],
       "gw_rank_live": 4
+    },
+    {
+      "entry_id": 6479497,
+      "team_name": "Jugoplastika1975",
+      "manager_name": "Pedro Kontiki",
+      "league_rank": 5,
+      "league_last_rank": 5,
+      "league_total": 434,
+      "event_points_from_standings": 75,
+      "monthly_rank": 10,
+      "monthly_last_rank": 0,
+      "monthly_total": 75,
+      "monthly_live_points": 75,
+      "monthly_live_rank": 9,
+      "is_me": false,
+      "picks_status": "ok",
+      "picks_error": null,
+      "active_chip": null,
+      "entry_history": {
+        "event": 6,
+        "points": 75,
+        "total_points": 434,
+        "rank": 954939,
+        "rank_sort": 979673,
+        "overall_rank": 276223,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "2",
+        "bank": 2,
+        "value": 1008,
+        "event_transfers": 1,
+        "event_transfers_cost": 0,
+        "points_on_bench": 4
+      },
+      "automatic_subs": [],
+      "picks": [
+        {
+          "element": 109,
+          "web_name": "Verbruggen",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 1,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 28
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 2,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 81,
+          "bonus": 1,
+          "bps": 22
+        },
+        {
+          "element": 173,
+          "web_name": "Thomas",
+          "team": 7,
+          "team_short": "COV",
+          "position": 3,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 391,
+          "web_name": "Gvardiol",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 4,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 24,
+          "bonus": 0,
+          "bps": 15
+        },
+        {
+          "element": 480,
+          "web_name": "Gibbs-White",
+          "team": 18,
+          "team_short": "NFO",
+          "position": 5,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 23
+        },
+        {
+          "element": 12,
+          "web_name": "Saka",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 6,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 9
+        },
+        {
+          "element": 40,
+          "web_name": "Rogers",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 7,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 83,
+          "bonus": 0,
+          "bps": 39
+        },
+        {
+          "element": 399,
+          "web_name": "Cherki",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 8,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 10,
+          "minutes": 90,
+          "bonus": 2,
+          "bps": 39
+        },
+        {
+          "element": 124,
+          "web_name": "Groß",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 9,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 22
+        },
+        {
+          "element": 411,
+          "web_name": "Haaland",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 10,
+          "multiplier": 2,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 79,
+          "bonus": 0,
+          "bps": 30
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 11,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 12,
+          "minutes": 71,
+          "bonus": 2,
+          "bps": 61
+        },
+        {
+          "element": 497,
+          "web_name": "Dubravka",
+          "team": 19,
+          "team_short": "TOT",
+          "position": 12,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 552,
+          "web_name": "Brobbey",
+          "team": 20,
+          "team_short": "SUN",
+          "position": 13,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 539,
+          "web_name": "O'Nien",
+          "team": 20,
+          "team_short": "SUN",
+          "position": 14,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 204,
+          "web_name": "Mitchell",
+          "team": 8,
+          "team_short": "CRY",
+          "position": 15,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 17
+        }
+      ],
+      "current_gw_transfers": [
+        {
+          "element_in": 12,
+          "element_in_cost": 96,
+          "element_out": 557,
+          "element_out_cost": 63,
+          "entry": 6479497,
+          "event": 6,
+          "time": "2026-10-09T20:49:18.126691Z"
+        }
+      ],
+      "gw_rank_live": 9
     },
     {
       "entry_id": 1791982,
@@ -3496,7 +3496,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 464,
@@ -3538,7 +3538,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 469,
@@ -3693,7 +3693,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 397,
@@ -3763,7 +3763,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -4035,7 +4035,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 497,
@@ -4283,7 +4283,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 497,
@@ -4536,7 +4536,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -4803,7 +4803,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -5075,7 +5075,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 496,
@@ -5253,7 +5253,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 124,
@@ -5323,7 +5323,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 496,
@@ -5365,7 +5365,7 @@
           "live_points": 3,
           "minutes": 87,
           "bonus": 0,
-          "bps": -1
+          "bps": 0
         },
         {
           "element": 259,
@@ -5561,7 +5561,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 426,
@@ -5603,7 +5603,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -5631,7 +5631,7 @@
           "live_points": 9,
           "minutes": 90,
           "bonus": 1,
-          "bps": 36
+          "bps": 37
         },
         {
           "element": 286,
@@ -5851,7 +5851,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 464,
@@ -6141,7 +6141,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 496,
@@ -6202,6 +6202,254 @@
       ],
       "current_gw_transfers": [],
       "gw_rank_live": 29
+    },
+    {
+      "entry_id": 1663365,
+      "team_name": "marcosilva",
+      "manager_name": "Diogo Rosa",
+      "league_rank": 18,
+      "league_last_rank": 17,
+      "league_total": 405,
+      "event_points_from_standings": 62,
+      "monthly_rank": 33,
+      "monthly_last_rank": 0,
+      "monthly_total": 62,
+      "monthly_live_points": 62,
+      "monthly_live_rank": 33,
+      "is_me": false,
+      "picks_status": "ok",
+      "picks_error": null,
+      "active_chip": null,
+      "entry_history": {
+        "event": 6,
+        "points": 62,
+        "total_points": 405,
+        "rank": 3334207,
+        "rank_sort": 3355371,
+        "overall_rank": 1177779,
+        "percentile_rank": 35,
+        "overall_rank_percentage": "11",
+        "bank": 3,
+        "value": 1019,
+        "event_transfers": 0,
+        "event_transfers_cost": 0,
+        "points_on_bench": 5
+      },
+      "automatic_subs": [],
+      "picks": [
+        {
+          "element": 496,
+          "web_name": "Kinsky",
+          "team": 19,
+          "team_short": "TOT",
+          "position": 1,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 3,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 16
+        },
+        {
+          "element": 31,
+          "web_name": "Konsa",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 2,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 17
+        },
+        {
+          "element": 391,
+          "web_name": "Gvardiol",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 3,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 24,
+          "bonus": 0,
+          "bps": 15
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 4,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 81,
+          "bonus": 1,
+          "bps": 22
+        },
+        {
+          "element": 40,
+          "web_name": "Rogers",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 5,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 9,
+          "minutes": 83,
+          "bonus": 0,
+          "bps": 39
+        },
+        {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 6,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 1,
+          "minutes": 89,
+          "bonus": 0,
+          "bps": 12
+        },
+        {
+          "element": 124,
+          "web_name": "Groß",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 7,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 22
+        },
+        {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "team": 16,
+          "team_short": "MUN",
+          "position": 8,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 1,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 10
+        },
+        {
+          "element": 94,
+          "web_name": "Schade",
+          "team": 4,
+          "team_short": "BRE",
+          "position": 9,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 1,
+          "minutes": 51,
+          "bonus": 0,
+          "bps": 4
+        },
+        {
+          "element": 411,
+          "web_name": "Haaland",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 10,
+          "multiplier": 2,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 79,
+          "bonus": 0,
+          "bps": 30
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 11,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "live_points": 12,
+          "minutes": 71,
+          "bonus": 2,
+          "bps": 61
+        },
+        {
+          "element": 301,
+          "web_name": "Palmer",
+          "team": 12,
+          "team_short": "IPS",
+          "position": 12,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 305,
+          "web_name": "Davis",
+          "team": 12,
+          "team_short": "IPS",
+          "position": 13,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 1,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 5
+        },
+        {
+          "element": 334,
+          "web_name": "Muharemović",
+          "team": 13,
+          "team_short": "LEE",
+          "position": 14,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 4
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "team": 13,
+          "team_short": "LEE",
+          "position": 15,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 7
+        }
+      ],
+      "current_gw_transfers": [],
+      "gw_rank_live": 33
     },
     {
       "entry_id": 4052875,
@@ -6361,7 +6609,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -6543,254 +6791,6 @@
       "gw_rank_live": 12
     },
     {
-      "entry_id": 1663365,
-      "team_name": "marcosilva",
-      "manager_name": "Diogo Rosa",
-      "league_rank": 18,
-      "league_last_rank": 17,
-      "league_total": 405,
-      "event_points_from_standings": 62,
-      "monthly_rank": 33,
-      "monthly_last_rank": 0,
-      "monthly_total": 62,
-      "monthly_live_points": 62,
-      "monthly_live_rank": 33,
-      "is_me": false,
-      "picks_status": "ok",
-      "picks_error": null,
-      "active_chip": null,
-      "entry_history": {
-        "event": 6,
-        "points": 62,
-        "total_points": 405,
-        "rank": 3334207,
-        "rank_sort": 3355371,
-        "overall_rank": 1177779,
-        "percentile_rank": 35,
-        "overall_rank_percentage": "11",
-        "bank": 3,
-        "value": 1019,
-        "event_transfers": 0,
-        "event_transfers_cost": 0,
-        "points_on_bench": 5
-      },
-      "automatic_subs": [],
-      "picks": [
-        {
-          "element": 496,
-          "web_name": "Kinsky",
-          "team": 19,
-          "team_short": "TOT",
-          "position": 1,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 3,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 16
-        },
-        {
-          "element": 31,
-          "web_name": "Konsa",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 2,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 17
-        },
-        {
-          "element": 391,
-          "web_name": "Gvardiol",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 3,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 24,
-          "bonus": 0,
-          "bps": 15
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 4,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 81,
-          "bonus": 1,
-          "bps": 22
-        },
-        {
-          "element": 40,
-          "web_name": "Rogers",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 5,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 9,
-          "minutes": 83,
-          "bonus": 0,
-          "bps": 39
-        },
-        {
-          "element": 15,
-          "web_name": "Ødegaard",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 6,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 89,
-          "bonus": 0,
-          "bps": 12
-        },
-        {
-          "element": 124,
-          "web_name": "Groß",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 7,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 22
-        },
-        {
-          "element": 426,
-          "web_name": "B.Fernandes",
-          "team": 16,
-          "team_short": "MUN",
-          "position": 8,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 10
-        },
-        {
-          "element": 94,
-          "web_name": "Schade",
-          "team": 4,
-          "team_short": "BRE",
-          "position": 9,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 51,
-          "bonus": 0,
-          "bps": 4
-        },
-        {
-          "element": 411,
-          "web_name": "Haaland",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 10,
-          "multiplier": 2,
-          "is_captain": true,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 79,
-          "bonus": 0,
-          "bps": 33
-        },
-        {
-          "element": 165,
-          "web_name": "João Pedro",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 11,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": true,
-          "live_points": 12,
-          "minutes": 71,
-          "bonus": 2,
-          "bps": 61
-        },
-        {
-          "element": 301,
-          "web_name": "Palmer",
-          "team": 12,
-          "team_short": "IPS",
-          "position": 12,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 305,
-          "web_name": "Davis",
-          "team": 12,
-          "team_short": "IPS",
-          "position": 13,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 1,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 5
-        },
-        {
-          "element": 334,
-          "web_name": "Muharemović",
-          "team": 13,
-          "team_short": "LEE",
-          "position": 14,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 4
-        },
-        {
-          "element": 346,
-          "web_name": "Calvert-Lewin",
-          "team": 13,
-          "team_short": "LEE",
-          "position": 15,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 7
-        }
-      ],
-      "current_gw_transfers": [],
-      "gw_rank_live": 33
-    },
-    {
       "entry_id": 6138377,
       "team_name": "M@chine",
       "manager_name": "Nuno Moutinho",
@@ -6864,7 +6864,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 30
+          "bps": 28
         },
         {
           "element": 8,
@@ -6976,7 +6976,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 82,
@@ -7220,7 +7220,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -7468,7 +7468,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -7839,7 +7839,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 623,
@@ -8158,7 +8158,7 @@
           "live_points": 3,
           "minutes": 79,
           "bonus": 0,
-          "bps": 16
+          "bps": 20
         },
         {
           "element": 40,
@@ -8214,7 +8214,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 623,
@@ -8397,7 +8397,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 124,
@@ -8481,7 +8481,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 57,
@@ -8748,7 +8748,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 496,
@@ -8945,7 +8945,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 426,
@@ -9015,7 +9015,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 496,
@@ -9259,7 +9259,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -9531,7 +9531,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 497,
@@ -9883,7 +9883,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 464,
@@ -10103,7 +10103,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 165,
@@ -10131,7 +10131,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 379,
@@ -10263,7 +10263,7 @@
           "live_points": 9,
           "minutes": 90,
           "bonus": 1,
-          "bps": 36
+          "bps": 37
         },
         {
           "element": 504,
@@ -10305,7 +10305,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 30
+          "bps": 28
         },
         {
           "element": 201,
@@ -10389,7 +10389,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 138,
@@ -10591,7 +10591,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 453,
@@ -10703,7 +10703,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 30
+          "bps": 28
         },
         {
           "element": 26,
@@ -10977,7 +10977,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -11141,7 +11141,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 0,
-          "bps": 30
+          "bps": 28
         },
         {
           "element": 649,
@@ -11183,7 +11183,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 15,
@@ -11225,7 +11225,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 165,
@@ -11427,7 +11427,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 426,
@@ -11483,7 +11483,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 166,
@@ -12298,7 +12298,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -4
+          "bps": -3
         },
         {
           "element": 426,
@@ -12340,7 +12340,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 480,
@@ -12584,7 +12584,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 40,
@@ -12640,7 +12640,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 569,
@@ -12912,7 +12912,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 496,
@@ -13058,7 +13058,7 @@
           "live_points": 0,
           "minutes": 90,
           "bonus": 0,
-          "bps": -4
+          "bps": -3
         },
         {
           "element": 469,
@@ -13170,7 +13170,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 109,
@@ -13348,7 +13348,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 367,
@@ -13418,7 +13418,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 385,
@@ -13856,7 +13856,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 109,
@@ -13992,7 +13992,7 @@
           "live_points": 3,
           "minutes": 87,
           "bonus": 0,
-          "bps": -1
+          "bps": 0
         },
         {
           "element": 229,
@@ -14034,7 +14034,7 @@
           "live_points": 10,
           "minutes": 90,
           "bonus": 2,
-          "bps": 38
+          "bps": 39
         },
         {
           "element": 155,
@@ -14048,7 +14048,7 @@
           "live_points": 3,
           "minutes": 79,
           "bonus": 0,
-          "bps": 16
+          "bps": 20
         },
         {
           "element": 368,
@@ -14090,7 +14090,7 @@
           "live_points": 6,
           "minutes": 79,
           "bonus": 0,
-          "bps": 33
+          "bps": 30
         },
         {
           "element": 26,
@@ -14535,7 +14535,7 @@
           "live_points": 3,
           "minutes": 79,
           "bonus": 0,
-          "bps": 16
+          "bps": 20
         },
         {
           "element": 124,
@@ -14819,7 +14819,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-10-11T22:41:45.036055+00:00",
+  "fixture_status_generated_at_utc": "2026-10-12T01:48:05.413895+00:00",
   "fixtures": [
     {
       "id": 51,
