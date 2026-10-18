@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-10-17T22:56:53.284306+00:00",
+  "generated_at_utc": "2026-10-18T00:40:48.341123+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -2395,7 +2395,7 @@
           "live_points": 11,
           "minutes": 71,
           "bonus": 3,
-          "bps": 34
+          "bps": 35
         },
         {
           "element": 124,
@@ -3281,7 +3281,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         }
       ],
       "current_gw_transfers": [
@@ -3801,7 +3801,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 279,
@@ -4237,7 +4237,7 @@
           "live_points": 11,
           "minutes": 71,
           "bonus": 3,
-          "bps": 34
+          "bps": 35
         },
         {
           "element": 165,
@@ -5582,7 +5582,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 109,
@@ -6635,7 +6635,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 277,
@@ -7871,7 +7871,7 @@
           "live_points": 11,
           "minutes": 71,
           "bonus": 3,
-          "bps": 34
+          "bps": 35
         },
         {
           "element": 165,
@@ -10014,7 +10014,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 572,
@@ -10234,7 +10234,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 165,
@@ -10735,7 +10735,7 @@
           "live_points": 11,
           "minutes": 71,
           "bonus": 3,
-          "bps": 34
+          "bps": 35
         },
         {
           "element": 249,
@@ -11517,7 +11517,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 411,
@@ -12350,7 +12350,7 @@
           "live_points": 8,
           "minutes": 90,
           "bonus": 0,
-          "bps": 22
+          "bps": 20
         }
       ],
       "current_gw_transfers": [
@@ -12589,7 +12589,7 @@
           "live_points": 1,
           "minutes": 90,
           "bonus": 0,
-          "bps": 0
+          "bps": 1
         },
         {
           "element": 391,
@@ -14024,7 +14024,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-10-17T22:56:53.474372+00:00",
+  "fixture_status_generated_at_utc": "2026-10-18T00:40:48.720654+00:00",
   "fixtures": [
     {
       "id": 64,
