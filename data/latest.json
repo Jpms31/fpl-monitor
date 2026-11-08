@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-11-07T22:11:35.257714+00:00",
+  "generated_at_utc": "2026-11-08T01:26:41.174776+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -37,7 +37,7 @@
     "name": "November",
     "start_event": 10,
     "stop_event": 12,
-    "highest_score": 71
+    "highest_score": 100
   },
   "private_competition": {
     "gw_prize_eur": 5,
@@ -163,71 +163,59 @@
       "stop_event": 12,
       "live_leaders": [
         {
-          "entry_id": 1754828,
-          "team_name": "The Special One 2.0",
-          "points": 16,
-          "rank": 1
-        },
-        {
-          "entry_id": 7074640,
-          "team_name": "Vareiro Squad",
-          "points": 16,
+          "entry_id": 2791178,
+          "team_name": "TNT",
+          "points": 42,
           "rank": 1
         }
       ],
       "live_top_five": [
         {
-          "entry_id": 1754828,
-          "team_name": "The Special One 2.0",
-          "points": 16,
+          "entry_id": 2791178,
+          "team_name": "TNT",
+          "points": 42,
           "rank": 1
         },
         {
-          "entry_id": 7074640,
-          "team_name": "Vareiro Squad",
-          "points": 16,
-          "rank": 1
+          "entry_id": 6380348,
+          "team_name": "Aeroporto_d_mosquito",
+          "points": 41,
+          "rank": 2
         },
         {
-          "entry_id": 5028805,
-          "team_name": "strike first",
-          "points": 9,
+          "entry_id": 644934,
+          "team_name": "js campinense",
+          "points": 40,
           "rank": 3
         },
         {
-          "entry_id": 6029177,
-          "team_name": "Xteam",
-          "points": 2,
-          "rank": 4
+          "entry_id": 6165505,
+          "team_name": "Fuzileiros do Amor",
+          "points": 40,
+          "rank": 3
         },
-        {
-          "entry_id": 4321620,
-          "team_name": "AD Caceteiros",
-          "points": 2,
-          "rank": 4
-        }
-      ],
-      "live_leading_points": 16,
-      "my_live_rank": 10,
-      "my_live_points": 0,
-      "my_live_gap_to_lead": 16,
-      "official_leaders": [
         {
           "entry_id": 7074640,
           "team_name": "Vareiro Squad",
-          "rank": 1,
-          "points": 16
-        },
-        {
-          "entry_id": 1754828,
-          "team_name": "The Special One 2.0",
-          "rank": 2,
-          "points": 16
+          "points": 39,
+          "rank": 5
         }
       ],
-      "official_leading_points": 16,
-      "my_official_rank": 22,
-      "my_official_points": 0,
+      "live_leading_points": 42,
+      "my_live_rank": 16,
+      "my_live_points": 28,
+      "my_live_gap_to_lead": 14,
+      "official_leaders": [
+        {
+          "entry_id": 2791178,
+          "team_name": "TNT",
+          "rank": 1,
+          "points": 42
+        }
+      ],
+      "official_leading_points": 42,
+      "my_official_rank": 16,
+      "my_official_points": 28,
       "standings_ok": true,
       "live_source": "official_phase_standings",
       "error": null
@@ -1722,11 +1710,11 @@
       "league_last_rank": 1,
       "league_total": 693,
       "event_points_from_standings": 37,
-      "monthly_rank": 40,
+      "monthly_rank": 7,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 37,
+      "monthly_live_points": 37,
+      "monthly_live_rank": 7,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -1816,7 +1804,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 399,
@@ -1989,11 +1977,11 @@
       "league_last_rank": 2,
       "league_total": 671,
       "event_points_from_standings": 28,
-      "monthly_rank": 40,
+      "monthly_rank": 17,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 28,
+      "monthly_live_points": 28,
+      "monthly_live_rank": 16,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -2097,7 +2085,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 124,
@@ -2256,11 +2244,11 @@
       "league_last_rank": 3,
       "league_total": 669,
       "event_points_from_standings": 28,
-      "monthly_rank": 22,
+      "monthly_rank": 16,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 28,
+      "monthly_live_points": 28,
+      "monthly_live_rank": 16,
       "is_me": true,
       "picks_status": "ok",
       "picks_error": null,
@@ -2336,7 +2324,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 68,
@@ -2514,11 +2502,11 @@
       "league_last_rank": 4,
       "league_total": 657,
       "event_points_from_standings": 24,
-      "monthly_rank": 22,
+      "monthly_rank": 26,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 24,
+      "monthly_live_points": 24,
+      "monthly_live_rank": 26,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -2594,7 +2582,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 40,
@@ -2772,11 +2760,11 @@
       "league_last_rank": 5,
       "league_total": 638,
       "event_points_from_standings": 24,
-      "monthly_rank": 22,
+      "monthly_rank": 26,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 24,
+      "monthly_live_points": 24,
+      "monthly_live_rank": 26,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -2838,7 +2826,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 4,
@@ -3030,11 +3018,11 @@
       "league_last_rank": 10,
       "league_total": 636,
       "event_points_from_standings": 36,
-      "monthly_rank": 2,
+      "monthly_rank": 8,
       "monthly_last_rank": 0,
-      "monthly_total": 16,
-      "monthly_live_points": 16,
-      "monthly_live_rank": 1,
+      "monthly_total": 36,
+      "monthly_live_points": 36,
+      "monthly_live_rank": 8,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -3096,7 +3084,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 112,
@@ -3297,11 +3285,11 @@
       "league_last_rank": 15,
       "league_total": 631,
       "event_points_from_standings": 40,
-      "monthly_rank": 10,
+      "monthly_rank": 3,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 40,
+      "monthly_live_points": 40,
+      "monthly_live_rank": 3,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -3349,7 +3337,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 391,
@@ -3545,11 +3533,11 @@
       "league_last_rank": 6,
       "league_total": 630,
       "event_points_from_standings": 18,
-      "monthly_rank": 10,
+      "monthly_rank": 38,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 18,
+      "monthly_live_points": 18,
+      "monthly_live_rank": 38,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -3625,7 +3613,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 124,
@@ -3793,11 +3781,11 @@
       "league_last_rank": 9,
       "league_total": 628,
       "event_points_from_standings": 25,
-      "monthly_rank": 3,
+      "monthly_rank": 25,
       "monthly_last_rank": 0,
-      "monthly_total": 9,
-      "monthly_live_points": 9,
-      "monthly_live_rank": 3,
+      "monthly_total": 25,
+      "monthly_live_points": 25,
+      "monthly_live_rank": 24,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -3859,7 +3847,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 305,
@@ -4069,11 +4057,11 @@
       "league_last_rank": 16,
       "league_total": 627,
       "event_points_from_standings": 38,
-      "monthly_rank": 22,
+      "monthly_rank": 6,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 38,
+      "monthly_live_points": 38,
+      "monthly_live_rank": 6,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -4121,7 +4109,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 504,
@@ -4327,11 +4315,11 @@
       "league_last_rank": 7,
       "league_total": 625,
       "event_points_from_standings": 18,
-      "monthly_rank": 22,
+      "monthly_rank": 40,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 18,
+      "monthly_live_points": 18,
+      "monthly_live_rank": 38,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -4407,7 +4395,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 154,
@@ -4585,11 +4573,11 @@
       "league_last_rank": 12,
       "league_total": 622,
       "event_points_from_standings": 26,
-      "monthly_rank": 10,
+      "monthly_rank": 21,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 26,
+      "monthly_live_points": 26,
+      "monthly_live_rank": 21,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -4651,7 +4639,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 31,
@@ -4833,11 +4821,11 @@
       "league_last_rank": 8,
       "league_total": 622,
       "event_points_from_standings": 18,
-      "monthly_rank": 22,
+      "monthly_rank": 40,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 18,
+      "monthly_live_points": 18,
+      "monthly_live_rank": 38,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -4899,7 +4887,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 115,
@@ -5091,11 +5079,11 @@
       "league_last_rank": 10,
       "league_total": 621,
       "event_points_from_standings": 21,
-      "monthly_rank": 10,
+      "monthly_rank": 34,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 21,
+      "monthly_live_points": 21,
+      "monthly_live_rank": 34,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -5157,7 +5145,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 115,
@@ -5339,11 +5327,11 @@
       "league_last_rank": 12,
       "league_total": 619,
       "event_points_from_standings": 23,
-      "monthly_rank": 40,
+      "monthly_rank": 31,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 23,
+      "monthly_live_points": 23,
+      "monthly_live_rank": 28,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -5405,7 +5393,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 115,
@@ -5606,11 +5594,11 @@
       "league_last_rank": 14,
       "league_total": 616,
       "event_points_from_standings": 22,
-      "monthly_rank": 22,
+      "monthly_rank": 33,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 22,
+      "monthly_live_points": 22,
+      "monthly_live_rank": 33,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -5686,7 +5674,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 68,
@@ -5864,11 +5852,11 @@
       "league_last_rank": 17,
       "league_total": 600,
       "event_points_from_standings": 12,
-      "monthly_rank": 22,
+      "monthly_rank": 45,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 12,
+      "monthly_live_points": 12,
+      "monthly_live_rank": 45,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -5916,7 +5904,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 115,
@@ -6056,7 +6044,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 488,
@@ -6122,11 +6110,11 @@
       "league_last_rank": 21,
       "league_total": 599,
       "event_points_from_standings": 40,
-      "monthly_rank": 10,
+      "monthly_rank": 3,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 40,
+      "monthly_live_points": 40,
+      "monthly_live_rank": 3,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -6174,7 +6162,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 449,
@@ -6244,7 +6232,7 @@
           "live_points": 11,
           "minutes": 90,
           "bonus": 3,
-          "bps": 41
+          "bps": 44
         },
         {
           "element": 94,
@@ -6370,11 +6358,11 @@
       "league_last_rank": 18,
       "league_total": 597,
       "event_points_from_standings": 23,
-      "monthly_rank": 6,
+      "monthly_rank": 28,
       "monthly_last_rank": 0,
-      "monthly_total": 2,
-      "monthly_live_points": 2,
-      "monthly_live_rank": 4,
+      "monthly_total": 23,
+      "monthly_live_points": 23,
+      "monthly_live_rank": 28,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -6628,11 +6616,11 @@
       "league_last_rank": 19,
       "league_total": 596,
       "event_points_from_standings": 26,
-      "monthly_rank": 40,
+      "monthly_rank": 23,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 26,
+      "monthly_live_points": 26,
+      "monthly_live_rank": 21,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -6680,7 +6668,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 334,
@@ -6895,11 +6883,11 @@
       "league_last_rank": 20,
       "league_total": 583,
       "event_points_from_standings": 16,
-      "monthly_rank": 22,
+      "monthly_rank": 42,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 16,
+      "monthly_live_points": 16,
+      "monthly_live_rank": 42,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -7153,11 +7141,11 @@
       "league_last_rank": 30,
       "league_total": 581,
       "event_points_from_standings": 39,
-      "monthly_rank": 1,
+      "monthly_rank": 5,
       "monthly_last_rank": 0,
-      "monthly_total": 16,
-      "monthly_live_points": 16,
-      "monthly_live_rank": 1,
+      "monthly_total": 39,
+      "monthly_live_points": 39,
+      "monthly_live_rank": 5,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -7205,7 +7193,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 504,
@@ -7394,6 +7382,254 @@
       "gw_rank_live": 5
     },
     {
+      "entry_id": 1947911,
+      "team_name": "AOC FC",
+      "manager_name": "Jorge Costa",
+      "league_rank": 23,
+      "league_last_rank": 23,
+      "league_total": 576,
+      "event_points_from_standings": 18,
+      "monthly_rank": 38,
+      "monthly_last_rank": 0,
+      "monthly_total": 18,
+      "monthly_live_points": 18,
+      "monthly_live_rank": 38,
+      "is_me": false,
+      "picks_status": "ok",
+      "picks_error": null,
+      "active_chip": null,
+      "entry_history": {
+        "event": 10,
+        "points": 18,
+        "total_points": 576,
+        "rank": 8298534,
+        "rank_sort": 8336576,
+        "overall_rank": 2423873,
+        "percentile_rank": 75,
+        "overall_rank_percentage": "22",
+        "bank": 28,
+        "value": 1018,
+        "event_transfers": 0,
+        "event_transfers_cost": 0,
+        "points_on_bench": 0
+      },
+      "automatic_subs": [],
+      "picks": [
+        {
+          "element": 496,
+          "web_name": "Kinsky",
+          "team": 19,
+          "team_short": "TOT",
+          "position": 1,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 13
+        },
+        {
+          "element": 449,
+          "web_name": "Hall",
+          "team": 17,
+          "team_short": "NEW",
+          "position": 2,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 4,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 20
+        },
+        {
+          "element": 391,
+          "web_name": "Gvardiol",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 3,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 45,
+          "bonus": 0,
+          "bps": -6
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "team": 1,
+          "team_short": "ARS",
+          "position": 4,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 6,
+          "minutes": 68,
+          "bonus": 0,
+          "bps": 26
+        },
+        {
+          "element": 40,
+          "web_name": "Rogers",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 5,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 154,
+          "web_name": "Palmer",
+          "team": 6,
+          "team_short": "CHE",
+          "position": 6,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": true,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 68,
+          "web_name": "Tavernier",
+          "team": 3,
+          "team_short": "BOU",
+          "position": 7,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 124,
+          "web_name": "Groß",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 8,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 166,
+          "web_name": "N.Jackson",
+          "team": 2,
+          "team_short": "AVL",
+          "position": 9,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 411,
+          "web_name": "Haaland",
+          "team": 15,
+          "team_short": "MCI",
+          "position": 10,
+          "multiplier": 2,
+          "is_captain": true,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 90,
+          "bonus": 0,
+          "bps": 6
+        },
+        {
+          "element": 464,
+          "web_name": "Wissa",
+          "team": 17,
+          "team_short": "NEW",
+          "position": 11,
+          "multiplier": 1,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 2,
+          "minutes": 60,
+          "bonus": 0,
+          "bps": 7
+        },
+        {
+          "element": 109,
+          "web_name": "Verbruggen",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 12,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 304,
+          "web_name": "O'Shea",
+          "team": 12,
+          "team_short": "IPS",
+          "position": 13,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 127,
+          "web_name": "Gomez",
+          "team": 5,
+          "team_short": "BHA",
+          "position": 14,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        },
+        {
+          "element": 87,
+          "web_name": "Ajer",
+          "team": 4,
+          "team_short": "BRE",
+          "position": 15,
+          "multiplier": 0,
+          "is_captain": false,
+          "is_vice_captain": false,
+          "live_points": 0,
+          "minutes": 0,
+          "bonus": 0,
+          "bps": 0
+        }
+      ],
+      "current_gw_transfers": [],
+      "gw_rank_live": 38
+    },
+    {
       "entry_id": 8701577,
       "team_name": "Margonça FC",
       "manager_name": "Pedro Regadas",
@@ -7401,11 +7637,11 @@
       "league_last_rank": 24,
       "league_total": 576,
       "event_points_from_standings": 19,
-      "monthly_rank": 22,
+      "monthly_rank": 37,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 19,
+      "monthly_live_points": 19,
+      "monthly_live_rank": 37,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -7593,7 +7829,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 94,
@@ -7652,254 +7888,6 @@
       "gw_rank_live": 37
     },
     {
-      "entry_id": 1947911,
-      "team_name": "AOC FC",
-      "manager_name": "Jorge Costa",
-      "league_rank": 23,
-      "league_last_rank": 23,
-      "league_total": 576,
-      "event_points_from_standings": 18,
-      "monthly_rank": 10,
-      "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
-      "is_me": false,
-      "picks_status": "ok",
-      "picks_error": null,
-      "active_chip": null,
-      "entry_history": {
-        "event": 10,
-        "points": 18,
-        "total_points": 576,
-        "rank": 8298534,
-        "rank_sort": 8336576,
-        "overall_rank": 2423873,
-        "percentile_rank": 75,
-        "overall_rank_percentage": "22",
-        "bank": 28,
-        "value": 1018,
-        "event_transfers": 0,
-        "event_transfers_cost": 0,
-        "points_on_bench": 0
-      },
-      "automatic_subs": [],
-      "picks": [
-        {
-          "element": 496,
-          "web_name": "Kinsky",
-          "team": 19,
-          "team_short": "TOT",
-          "position": 1,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 13
-        },
-        {
-          "element": 449,
-          "web_name": "Hall",
-          "team": 17,
-          "team_short": "NEW",
-          "position": 2,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 4,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 20
-        },
-        {
-          "element": 391,
-          "web_name": "Gvardiol",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 3,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 45,
-          "bonus": 0,
-          "bps": -6
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "team": 1,
-          "team_short": "ARS",
-          "position": 4,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 6,
-          "minutes": 68,
-          "bonus": 0,
-          "bps": 28
-        },
-        {
-          "element": 40,
-          "web_name": "Rogers",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 5,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 154,
-          "web_name": "Palmer",
-          "team": 6,
-          "team_short": "CHE",
-          "position": 6,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": true,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 68,
-          "web_name": "Tavernier",
-          "team": 3,
-          "team_short": "BOU",
-          "position": 7,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 124,
-          "web_name": "Groß",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 8,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 166,
-          "web_name": "N.Jackson",
-          "team": 2,
-          "team_short": "AVL",
-          "position": 9,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 411,
-          "web_name": "Haaland",
-          "team": 15,
-          "team_short": "MCI",
-          "position": 10,
-          "multiplier": 2,
-          "is_captain": true,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 90,
-          "bonus": 0,
-          "bps": 6
-        },
-        {
-          "element": 464,
-          "web_name": "Wissa",
-          "team": 17,
-          "team_short": "NEW",
-          "position": 11,
-          "multiplier": 1,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 2,
-          "minutes": 60,
-          "bonus": 0,
-          "bps": 7
-        },
-        {
-          "element": 109,
-          "web_name": "Verbruggen",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 12,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 304,
-          "web_name": "O'Shea",
-          "team": 12,
-          "team_short": "IPS",
-          "position": 13,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 127,
-          "web_name": "Gomez",
-          "team": 5,
-          "team_short": "BHA",
-          "position": 14,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        },
-        {
-          "element": 87,
-          "web_name": "Ajer",
-          "team": 4,
-          "team_short": "BRE",
-          "position": 15,
-          "multiplier": 0,
-          "is_captain": false,
-          "is_vice_captain": false,
-          "live_points": 0,
-          "minutes": 0,
-          "bonus": 0,
-          "bps": 0
-        }
-      ],
-      "current_gw_transfers": [],
-      "gw_rank_live": 38
-    },
-    {
       "entry_id": 4321620,
       "team_name": "AD Caceteiros",
       "manager_name": "Tiago Silva",
@@ -7907,11 +7895,11 @@
       "league_last_rank": 27,
       "league_total": 575,
       "event_points_from_standings": 29,
-      "monthly_rank": 4,
+      "monthly_rank": 14,
       "monthly_last_rank": 0,
-      "monthly_total": 2,
-      "monthly_live_points": 2,
-      "monthly_live_rank": 4,
+      "monthly_total": 29,
+      "monthly_live_points": 29,
+      "monthly_live_rank": 14,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -8029,7 +8017,7 @@
           "live_points": 11,
           "minutes": 90,
           "bonus": 3,
-          "bps": 41
+          "bps": 44
         },
         {
           "element": 68,
@@ -8099,7 +8087,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 87,
@@ -8155,11 +8143,11 @@
       "league_last_rank": 29,
       "league_total": 574,
       "event_points_from_standings": 31,
-      "monthly_rank": 10,
+      "monthly_rank": 12,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 31,
+      "monthly_live_points": 31,
+      "monthly_live_rank": 12,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -8235,7 +8223,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 40,
@@ -8263,7 +8251,7 @@
           "live_points": 11,
           "minutes": 90,
           "bonus": 3,
-          "bps": 41
+          "bps": 44
         },
         {
           "element": 427,
@@ -8403,11 +8391,11 @@
       "league_last_rank": 28,
       "league_total": 569,
       "event_points_from_standings": 25,
-      "monthly_rank": 10,
+      "monthly_rank": 24,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 25,
+      "monthly_live_points": 25,
+      "monthly_live_rank": 24,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -8469,7 +8457,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 362,
@@ -8651,11 +8639,11 @@
       "league_last_rank": 26,
       "league_total": 569,
       "event_points_from_standings": 21,
-      "monthly_rank": 22,
+      "monthly_rank": 36,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 21,
+      "monthly_live_points": 21,
+      "monthly_live_rank": 34,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -8731,7 +8719,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 557,
@@ -8909,11 +8897,11 @@
       "league_last_rank": 25,
       "league_total": 564,
       "event_points_from_standings": 10,
-      "monthly_rank": 22,
+      "monthly_rank": 46,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 10,
+      "monthly_live_points": 10,
+      "monthly_live_rank": 46,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -8989,7 +8977,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 286,
@@ -9167,11 +9155,11 @@
       "league_last_rank": 22,
       "league_total": 563,
       "event_points_from_standings": 8,
-      "monthly_rank": 40,
+      "monthly_rank": 47,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 8,
+      "monthly_live_points": 8,
+      "monthly_live_rank": 47,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -9373,7 +9361,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 286,
@@ -9434,11 +9422,11 @@
       "league_last_rank": 31,
       "league_total": 557,
       "event_points_from_standings": 26,
-      "monthly_rank": 10,
+      "monthly_rank": 21,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 26,
+      "monthly_live_points": 26,
+      "monthly_live_rank": 21,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -9682,11 +9670,11 @@
       "league_last_rank": 34,
       "league_total": 546,
       "event_points_from_standings": 21,
-      "monthly_rank": 10,
+      "monthly_rank": 34,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 21,
+      "monthly_live_points": 21,
+      "monthly_live_rank": 34,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -9734,7 +9722,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 391,
@@ -9930,11 +9918,11 @@
       "league_last_rank": 32,
       "league_total": 545,
       "event_points_from_standings": 14,
-      "monthly_rank": 22,
+      "monthly_rank": 44,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 14,
+      "monthly_live_points": 14,
+      "monthly_live_rank": 44,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -9996,7 +9984,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 112,
@@ -10188,11 +10176,11 @@
       "league_last_rank": 33,
       "league_total": 540,
       "event_points_from_standings": 15,
-      "monthly_rank": 40,
+      "monthly_rank": 43,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 15,
+      "monthly_live_points": 15,
+      "monthly_live_rank": 43,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -10380,7 +10368,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 480,
@@ -10455,11 +10443,11 @@
       "league_last_rank": 35,
       "league_total": 525,
       "event_points_from_standings": 23,
-      "monthly_rank": 22,
+      "monthly_rank": 28,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 23,
+      "monthly_live_points": 23,
+      "monthly_live_rank": 28,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -10713,11 +10701,11 @@
       "league_last_rank": 36,
       "league_total": 522,
       "event_points_from_standings": 27,
-      "monthly_rank": 22,
+      "monthly_rank": 18,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 27,
+      "monthly_live_points": 27,
+      "monthly_live_rank": 18,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -10765,7 +10753,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 10,
@@ -10971,11 +10959,11 @@
       "league_last_rank": 37,
       "league_total": 520,
       "event_points_from_standings": 29,
-      "monthly_rank": 9,
+      "monthly_rank": 14,
       "monthly_last_rank": 0,
-      "monthly_total": 1,
-      "monthly_live_points": 1,
-      "monthly_live_rank": 9,
+      "monthly_total": 29,
+      "monthly_live_points": 29,
+      "monthly_live_rank": 14,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -11107,7 +11095,7 @@
           "live_points": 11,
           "minutes": 90,
           "bonus": 3,
-          "bps": 41
+          "bps": 44
         },
         {
           "element": 464,
@@ -11163,7 +11151,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 469,
@@ -11219,11 +11207,11 @@
       "league_last_rank": 43,
       "league_total": 516,
       "event_points_from_standings": 42,
-      "monthly_rank": 4,
+      "monthly_rank": 1,
       "monthly_last_rank": 0,
-      "monthly_total": 2,
-      "monthly_live_points": 2,
-      "monthly_live_rank": 4,
+      "monthly_total": 42,
+      "monthly_live_points": 42,
+      "monthly_live_rank": 1,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -11467,10 +11455,10 @@
       "league_last_rank": 38,
       "league_total": 516,
       "event_points_from_standings": 33,
-      "monthly_rank": 22,
+      "monthly_rank": 10,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
+      "monthly_total": 33,
+      "monthly_live_points": 33,
       "monthly_live_rank": 10,
       "is_me": false,
       "picks_status": "ok",
@@ -11547,7 +11535,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 399,
@@ -11725,11 +11713,11 @@
       "league_last_rank": 40,
       "league_total": 515,
       "event_points_from_standings": 34,
-      "monthly_rank": 10,
+      "monthly_rank": 9,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 34,
+      "monthly_live_points": 34,
+      "monthly_live_rank": 9,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -11791,7 +11779,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 112,
@@ -11917,7 +11905,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 53,
@@ -11973,11 +11961,11 @@
       "league_last_rank": 41,
       "league_total": 507,
       "event_points_from_standings": 27,
-      "monthly_rank": 47,
+      "monthly_rank": 20,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 27,
+      "monthly_live_points": 27,
+      "monthly_live_rank": 18,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -12011,7 +11999,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 115,
@@ -12039,7 +12027,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 112,
@@ -12249,11 +12237,11 @@
       "league_last_rank": 42,
       "league_total": 506,
       "event_points_from_standings": 27,
-      "monthly_rank": 40,
+      "monthly_rank": 19,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 27,
+      "monthly_live_points": 27,
+      "monthly_live_rank": 18,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -12329,7 +12317,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 399,
@@ -12441,7 +12429,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 453,
@@ -12516,11 +12504,11 @@
       "league_last_rank": 39,
       "league_total": 505,
       "event_points_from_standings": 23,
-      "monthly_rank": 22,
+      "monthly_rank": 28,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 23,
+      "monthly_live_points": 23,
+      "monthly_live_rank": 28,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -12624,7 +12612,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 426,
@@ -12708,7 +12696,7 @@
           "live_points": 6,
           "minutes": 90,
           "bonus": 1,
-          "bps": 32
+          "bps": 33
         },
         {
           "element": 79,
@@ -12774,11 +12762,11 @@
       "league_last_rank": 44,
       "league_total": 501,
       "event_points_from_standings": 32,
-      "monthly_rank": 6,
+      "monthly_rank": 11,
       "monthly_last_rank": 0,
-      "monthly_total": 2,
-      "monthly_live_points": 2,
-      "monthly_live_rank": 4,
+      "monthly_total": 32,
+      "monthly_live_points": 32,
+      "monthly_live_rank": 11,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -12854,7 +12842,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 124,
@@ -12882,7 +12870,7 @@
           "live_points": 11,
           "minutes": 90,
           "bonus": 3,
-          "bps": 41
+          "bps": 44
         },
         {
           "element": 399,
@@ -13032,11 +13020,11 @@
       "league_last_rank": 45,
       "league_total": 490,
       "event_points_from_standings": 31,
-      "monthly_rank": 22,
+      "monthly_rank": 13,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 31,
+      "monthly_live_points": 31,
+      "monthly_live_rank": 12,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -13290,11 +13278,11 @@
       "league_last_rank": 46,
       "league_total": 477,
       "event_points_from_standings": 41,
-      "monthly_rank": 10,
+      "monthly_rank": 2,
       "monthly_last_rank": 0,
-      "monthly_total": 0,
-      "monthly_live_points": 0,
-      "monthly_live_rank": 10,
+      "monthly_total": 41,
+      "monthly_live_points": 41,
+      "monthly_live_rank": 2,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -13356,7 +13344,7 @@
           "live_points": 6,
           "minutes": 68,
           "bonus": 0,
-          "bps": 28
+          "bps": 26
         },
         {
           "element": 332,
@@ -13538,11 +13526,11 @@
       "league_last_rank": 47,
       "league_total": 403,
       "event_points_from_standings": 23,
-      "monthly_rank": 8,
+      "monthly_rank": 31,
       "monthly_last_rank": 0,
-      "monthly_total": 2,
-      "monthly_live_points": 2,
-      "monthly_live_rank": 4,
+      "monthly_total": 23,
+      "monthly_live_points": 23,
+      "monthly_live_rank": 28,
       "is_me": false,
       "picks_status": "ok",
       "picks_error": null,
@@ -13674,7 +13662,7 @@
           "live_points": 3,
           "minutes": 88,
           "bonus": 0,
-          "bps": 17
+          "bps": 19
         },
         {
           "element": 411,
@@ -13799,7 +13787,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-11-07T22:11:35.609410+00:00",
+  "fixture_status_generated_at_utc": "2026-11-08T01:26:41.433034+00:00",
   "fixtures": [
     {
       "id": 94,
