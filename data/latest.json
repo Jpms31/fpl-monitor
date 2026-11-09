@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at_utc": "2026-11-09T02:01:17.494316+00:00",
+  "generated_at_utc": "2026-11-09T09:36:23.784283+00:00",
   "source": "Official Fantasy Premier League public API via GitHub Actions",
   "league": {
     "id": 369689,
@@ -22,14 +22,14 @@
       "source": "Official Fantasy Premier League /fixtures endpoint",
       "completion_rule": "A match is final only when its official fixture has finished=true",
       "fixtures_total": 10,
-      "fixtures_finished": 0,
-      "fixtures_in_progress": 10,
+      "fixtures_finished": 10,
+      "fixtures_in_progress": 0,
       "fixtures_not_started": 0,
-      "all_fixtures_finished": false,
-      "any_fixture_in_progress": true,
-      "bonus_stats_complete": false,
-      "final_balance_ready": false,
-      "final_balance_reason": "one_or_more_official_fixtures_not_finished"
+      "all_fixtures_finished": true,
+      "any_fixture_in_progress": false,
+      "bonus_stats_complete": true,
+      "final_balance_ready": true,
+      "final_balance_reason": "all_official_fixtures_finished_bonus_present_live_ok"
     }
   },
   "monthly_phase": {
@@ -13787,7 +13787,7 @@
     }
   ],
   "errors": [],
-  "fixture_status_generated_at_utc": "2026-11-09T02:01:17.831605+00:00",
+  "fixture_status_generated_at_utc": "2026-11-09T09:36:24.169285+00:00",
   "fixtures": [
     {
       "id": 94,
@@ -13800,10 +13800,10 @@
       "team_a_short": "COV",
       "team_a_score": 1,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13817,10 +13817,10 @@
       "team_a_short": "TOT",
       "team_a_score": 0,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13834,10 +13834,10 @@
       "team_a_short": "HUL",
       "team_a_score": 0,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13851,10 +13851,10 @@
       "team_a_short": "NEW",
       "team_a_score": 1,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13868,10 +13868,10 @@
       "team_a_short": "MCI",
       "team_a_score": 1,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13885,10 +13885,10 @@
       "team_a_short": "BRE",
       "team_a_score": 0,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13902,10 +13902,10 @@
       "team_a_short": "LIV",
       "team_a_score": 3,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13919,10 +13919,10 @@
       "team_a_short": "BOU",
       "team_a_score": 2,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13936,10 +13936,10 @@
       "team_a_short": "CHE",
       "team_a_score": 0,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     },
     {
@@ -13953,10 +13953,10 @@
       "team_a_short": "AVL",
       "team_a_score": 4,
       "started": true,
-      "finished": false,
+      "finished": true,
       "minutes": 90,
-      "status": "in_progress",
-      "score_final": false,
+      "status": "finished",
+      "score_final": true,
       "bonus_stats_present": true
     }
   ]
